@@ -1,0 +1,480 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Nutrition Powder",
+          "description":"Top quality nutrition powder to aid recovery after exercise",
+          "price":29.99,
+          "category":3,
+          "rating":5.0,
+          "image_url":"https://www.freepik.com/free-psd/plastic-whey-protein-powder-jar-mockup_23009843.htm#query=protein%20pwder%20mokup&position=3&from_view=search&track=ais",
+          "image":"proteinpowder.png"
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001600425",
+          "name":"Multivitamins",
+          "description":"60 day supply of full spectrum multivitamin",
+          "price":17.99,
+          "category":3,
+          "rating":4.6,
+          "image_url":"https://www.freepik.com/free-psd/transparent-plastic-pill-bottle-packaging-mockup_24512616.htm#query=pill%20bottle%20mockup&position=9&from_view=search&track=sph",
+          "image":"vitamins.png"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001730010",
+          "name":"Yoga Mat",
+          "description":"Orange roll-up portable yoga mat",
+          "price":19.99,
+          "category":2,
+          "rating":4.8,
+          "image_url":"https://www.freepik.com/free-photo/close-up-hands-holding-mat_10942103.htm#query=yoga%20mat&position=0&from_view=search&track=sph",
+          "image":"yogamat.png"
+       }
+    },
+    {
+       "pk":4,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001890157",
+          "name":"Workout Vest",
+          "description":"Pink workout vest",
+          "price":25.99,
+          "category":1,
+          "rating":4.0,
+          "image_url":"https://unsplash.com/photos/Z72YujnOrlY",
+          "image":"vesttoppink.png"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002111605",
+          "name":"Workout Pants",
+          "description":"Workout Pants ",
+          "price":40.99,
+          "category":1,
+          "rating":5.0,
+          "image_url":"https://unsplash.com/photos/Y1drF0Y3Oe0",
+          "image":"bluepants.png"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002260206",
+          "name":"Drinks Bottle",
+          "description":"White drinks bottle",
+          "price":30.99,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://unsplash.com/photos/o6fSMrsqHOk",
+          "image":"drinksbottle.png"
+       }
+    },
+    {
+       "pk":7,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002440521",
+          "name":"Weight Ball",
+          "description":"55kg weight ball ",
+          "price":59.99,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://unsplash.com/photos/9xL_8KCEQqE",
+          "image":"weightball.png"
+       }
+    },
+    {
+       "pk":8,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002601115",
+          "name":"Workout Trainers",
+          "description":"Blue workout trainers",
+          "price":79.99,
+          "category":1,
+          "rating":4.5,
+          "image_url":"https://www.freepik.com/free-photo/pair-trainers_6048744.htm#query=racool_studio%20trainers&position=2&from_view=search&track=sph",
+          "image":"bluetrainers.png"
+       }
+    },
+    {
+       "pk":9,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002690715",
+          "name":"Kettlebell",
+          "description":"8kg kettlebell",
+          "price":89.99,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://www.freepik.com/free-photo/woman-training-with-weight-lifting_23440814.htm#query=kettlebell&position=15&from_view=search&track=sph",
+          "image":"kettlebell.png"
+       }
+    },
+    {
+       "pk":10,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002701115",
+          "name":"Yoga Vest",
+          "description":"Pink loose yoga vest.",
+          "price":30.99,
+          "category":1,
+          "rating":4.6,
+          "image_url":"https://www.pexels.com/photo/crop-sportswoman-carrying-sport-mat-and-bottle-of-water-before-exercising-4498574/",
+          "image":"pinkyogavest.png"
+       }
+    },
+    {
+       "pk":11,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002761055",
+          "name":"Workout shorts",
+          "description":"Purple workout shorts",
+          "price":25.99,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://www.pexels.com/photo/a-woman-boxing-while-wearing-virtual-reality-goggles-8097324/",
+          "image":"purpleshorts.png"
+       }
+    },
+    {
+       "pk":12,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820069",
+          "name":"Workout Pants",
+          "description":"Long workout pants",
+          "price":35.99,
+          "category":1,
+          "rating":5.0,
+          "image_url":"https://www.pexels.com/photo/determined-black-boxer-hitting-heavy-bag-during-training-in-gymnasium-6998875/",
+          "image":"blackjoggers.jpg"
+       }
+    },
+    {
+       "pk":13,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002820147",
+          "name":"Dumbbells",
+          "description":"2kg dumbbells",
+          "price":40.00,
+          "category":2,
+          "rating":4.2,
+          "image_url":"https://www.freepik.com/free-photo/purple-dumbbells-fitness-concept-isolated-white-background-fitness-concept-isolated-white-background-sport-body-building-concept-healthy-lifestyle-sport-diet-sport-equipment-copy-space_1192649.htm#query=dumbells&position=0&from_view=search&track=sph",
+          "image":"pinkweights.png"
+       }
+    },
+    {
+       "pk":14,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002910572",
+          "name":"Black Hoodie",
+          "description":"Black fleece lined hoodie ",
+          "price":39.99,
+          "category":1,
+          "rating":4.7,
+          "image_url":"https://www.pexels.com/photo/content-black-woman-in-comfy-sportswear-in-studio-6311384/",
+          "image":"blackhoodie.png"
+       }
+    },
+    {
+       "pk":15,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002990740",
+          "name":"Lilac Hoodie",
+          "description":"Lilac fleece lined hoodie",
+          "price":39.99,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://www.pexels.com/photo/content-black-woman-in-comfy-sportswear-standing-in-studio-6311317/",
+          "image":"lilachoodie.png"
+       }
+    },
+    {
+       "pk":16,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003050248",
+          "name":"Grey Hoodie",
+          "description":"Gray fleece lined hoodie ",
+          "price":39.99,
+          "category":1,
+          "rating":4.4,
+          "image_url":"https://www.pexels.com/photo/young-ethnic-woman-in-gray-activewear-standing-against-wooden-wall-6311392/",
+          "image":"greyhoodie.png"
+       }
+    },
+    {
+       "pk":17,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003070787",
+          "name":"Grey Vest",
+          "description":"Gray lycra vest",
+          "price":22.99,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://www.pexels.com/photo/fit-woman-in-sportswear-touching-her-hair-6311313/",
+          "image":"greyvest.png"
+       }
+    },
+    {
+       "pk":18,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003090182",
+          "name":"Yellow Shirt",
+          "description":"Loose yellow long sleeve top",
+          "price":19.99,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://www.pexels.com/photo/serious-black-woman-with-hands-in-pockets-against-rusty-wall-6311674/",
+          "image":"yellowshirt.png"
+       }
+    },
+    {
+       "pk":19,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003090186",
+          "name":"White T-shirt",
+          "description":"White loose short sleeve top",
+          "price":19.99,
+          "category":1,
+          "rating":5.0,
+          "image_url":"https://www.pexels.com/photo/cheerful-black-woman-wearing-white-t-shirt-and-pants-6311641/",
+          "image":"whiteshirt.png"
+       }
+    },
+    {
+       "pk":20,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003161326",
+          "name":"6wk Personal Training",
+          "description":"6 week personal training pack",
+          "price":99.99,
+          "category":4,
+          "rating":5.0,
+          "image_url":"https://www.freepik.com/free-photo/sporty-young-woman-doing-plank-exercise-indoors-home_21130290.htm#query=fitness%20training%20at%20home&position=6&from_view=search&track=sph",
+          "image":"6weekpt.png"
+       }
+    },
+    {
+       "pk":21,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003230723",
+          "name":"3 Month Personal Training",
+          "description":"3 month personal training pack",
+          "price":130.00,
+          "category":4,
+          "rating":5.0,
+          "image_url":"https://www.freepik.com/free-photo/sporty-young-woman-doing-plank-exercise-indoors-home_21130290.htm#query=fitness%20training%20at%20home&position=6&from_view=search&track=sph",
+          "image":"3monthpt.png"
+       }
+    },
+    {
+       "pk":22,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003270936",
+          "name":"6 Months Personal Training",
+          "description":"6 month personal training pack",
+          "price":299.99,
+          "category":4,
+          "rating":5.0,
+          "image_url":"https://www.freepik.com/free-photo/sporty-young-woman-doing-plank-exercise-indoors-home_21130290.htm#query=fitness%20training%20at%20home&position=6&from_view=search&track=sph",
+          "image":"6monthpt.png"
+       }
+    },
+    {
+       "pk":23,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003360384",
+          "name":"12 Month Personal Training",
+          "description":"12 month personal training pack",
+          "price":499.00,
+          "category":4,
+          "rating":5.0,
+          "image_url":"https://www.freepik.com/free-photo/sporty-young-woman-doing-plank-exercise-indoors-home_21130290.htm#query=fitness%20training%20at%20home&position=6&from_view=search&track=sph",
+          "image":"12monthpt.png"
+       }
+    },
+    {
+       "pk":24,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003440111",
+          "name":"Resistance band",
+          "description":"Blue resistance band",
+          "price":10.00,
+          "category":2,
+          "rating":4.0,
+          "image_url":"https://www.freepik.com/free-photo/slim-woman-doing-squats-with-fitness-loop-band-isolated_8471811.htm#query=exercise%20bands&position=13&from_view=search&track=sph",
+          "image":"resistanceband.png"
+       }
+    },
+    {
+       "pk":25,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003540313",
+          "name":"1 Nutrition Consultation",
+          "description":"1 Consultation with nutrisionist",
+          "price":50.00,
+          "category":5,
+          "rating":5.0,
+          "image_url":"https://img.freepik.com/free-photo/bag-groceries-with-copy-space_23-2148262102.jpg?w=740&t=st=1665952182~exp=1665952782~hmac=ed68bafbf86169b756aa348dca5c0bc2bc8b1e5f7c34591e17689750eafd1c93",
+          "image":"1nutrition.png"
+       }
+    },
+    {
+       "pk":26,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003560513",
+          "name":"3 Month Nutrition",
+          "description":"3 month nutrition plan",
+          "price":200.00,
+          "category":5,
+          "rating":5.0,
+          "image_url":"https://img.freepik.com/free-photo/bag-groceries-with-copy-space_23-2148262102.jpg?w=740&t=st=1665952182~exp=1665952782~hmac=ed68bafbf86169b756aa348dca5c0bc2bc8b1e5f7c34591e17689750eafd1c93",
+          "image":"3monthnutrition.png"
+       }
+    },
+    {
+       "pk":27,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003560948",
+          "name":"6 Month Nutrition",
+          "description":"6 month nutrition plan",
+          "price":350.00,
+          "category":5,
+          "rating":5.0,
+          "image_url":"https://img.freepik.com/free-photo/bag-groceries-with-copy-space_23-2148262102.jpg?w=740&t=st=1665952182~exp=1665952782~hmac=ed68bafbf86169b756aa348dca5c0bc2bc8b1e5f7c34591e17689750eafd1c93",
+          "image":"6monthnutrition.png"
+       }
+    },
+    {
+       "pk":28,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003570628",
+          "name":"6 Week Meditation",
+          "description":"6 week meditation pack",
+          "price":100.00,
+          "category":6,
+          "rating":4.8,
+          "image_url":"https://img.freepik.com/free-photo/young-woman-exercising-home_1303-29307.jpg?w=740&t=st=1665952098~exp=1665952698~hmac=59ba9b1df76cbca495a5890fe9e4665b97a2ada3d2e89ecc0e0db14c6e4ef84f",
+          "image":"6weekmeditation.png"
+       }
+    },
+    {
+       "pk":29,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003620308",
+          "name":"Chenille Lines Bath Rug Collection",
+          "description":"Keep your feet happy with our soft tufted bath rugs. They're available in a variety of complementary colors to suit your style.  ultra-soft 1\" pile microfiber polyester durable, tufted design resists matting nonskid latex backing Each rug sold separately. Polyester. Washable. Imported. Available in sizes 17x24\", 21x34\", or 27x45\"",
+          "price":79.99,
+          "category":6,
+          "rating":4.6,
+          "image_url":"https://img.freepik.com/free-photo/young-woman-exercising-home_1303-29307.jpg?w=740&t=st=1665952098~exp=1665952698~hmac=59ba9b1df76cbca495a5890fe9e4665b97a2ada3d2e89ecc0e0db14c6e4ef84f",
+          "image":"6weekmindfulness.png"
+       }
+    },
+    {
+       "pk":30,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003690115",
+          "name":"6 Week Physio",
+          "description":"6 week physio pack",
+          "price":199.99,
+          "category":6,
+          "rating":5.0,
+          "image_url":"https://img.freepik.com/free-photo/young-woman-exercising-home_1303-29307.jpg?w=740&t=st=1665952098~exp=1665952698~hmac=59ba9b1df76cbca495a5890fe9e4665b97a2ada3d2e89ecc0e0db14c6e4ef84f",
+          "image":"6weekphysio.png"
+       }
+    },
+    {
+       "pk":31,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003690116",
+          "name":"6 Week Yoga",
+          "description":"6 week yoga pack",
+          "price":250.00,
+          "category":6,
+          "rating":5.0,
+          "image_url":"https://img.freepik.com/free-photo/young-woman-exercising-home_1303-29307.jpg?w=740&t=st=1665952098~exp=1665952698~hmac=59ba9b1df76cbca495a5890fe9e4665b97a2ada3d2e89ecc0e0db14c6e4ef84f",
+          "image":"6weekyoga.png"
+     
+       }
+    },
+    {
+       "pk":32,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003790542",
+          "name":"Exercise Wheel",
+          "description":"Excercise Wheel",
+          "price":15.99,
+          "category":2,
+          "rating":4.5,
+          "image_url":"https://images.pexels.com/photos/8033019/pexels-photo-8033019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "image":"wheel.png"
+       }
+    },
+    {
+       "pk":33,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003831225",
+          "name":"Massage Gun",
+          "description":"Massage gun",
+          "price":50.00,
+          "category":2,
+          "rating":5.0,
+          "image_url":"",
+          "image":"massagegun.png"
+       }
+    },
+    {
+       "pk":34,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5003861402",
+          "name":"Yoga Outfit",
+          "description":"Green yoga outfit",
+          "price":45.99,
+          "category":1,
+          "rating":4.7,
+          "image_url":"",
+          "image":"yogaoutfit.png"
+       }
+    }
+ ]
+ 
