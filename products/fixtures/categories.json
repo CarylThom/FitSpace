@@ -35,7 +35,7 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "Nutritionist",
+            "name": "nutritionist",
             "friendly_name": "Nutritionist Packages"
         }
     },

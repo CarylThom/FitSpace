@@ -19,10 +19,10 @@
                 Your Fitness
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Clothing</a>
-                <a href="" class="dropdown-item">Equipment</a>
-                <a href="" class="dropdown-item">Nutrition</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=equipment" class="dropdown-item">Equipment</a>
+                <a href="{% url 'products' %}?category=nutrition" class="dropdown-item">Nutrition</a>
+                <a href="{% url 'products' %}?category=clothing,equipment,nutrition" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -32,9 +32,9 @@
                 Fitness Pack
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Fitness</a>
-                <a href="" class="dropdown-item">Nutrition</a>
-                <a href="" class="dropdown-item">Recover</a>
+                <a href="{% url 'products' %}?category=personal_training" class="dropdown-item">Fitness</a>
+                <a href="{% url 'products' %}?category=nutritionist" class="dropdown-item">Nutrition</a>
+                <a href="{% url 'products' %}?category=self_care" class="dropdown-item">Recover</a>
             </div>
 
         </li>
