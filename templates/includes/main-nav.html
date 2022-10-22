@@ -9,7 +9,7 @@
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">Find by Price</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">Find by Category</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">Find by Rating</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}" class="dropdown-item">See all Products</a>
             </div>
         </li>
 
@@ -22,7 +22,6 @@
                 <a href="{% url 'products' %}?category=clothing" class="dropdown-item">Clothing</a>
                 <a href="{% url 'products' %}?category=equipment" class="dropdown-item">Equipment</a>
                 <a href="{% url 'products' %}?category=nutrition" class="dropdown-item">Nutrition</a>
-                <a href="{% url 'products' %}?category=clothing,equipment,nutrition" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -36,7 +35,16 @@
                 <a href="{% url 'products' %}?category=nutritionist" class="dropdown-item">Nutrition</a>
                 <a href="{% url 'products' %}?category=self_care" class="dropdown-item">Recover</a>
             </div>
+            </li>
 
-        </li>
+            <li class="nav-item dropdown">
+                <a class="logo-font font-weight-bold nav-link text-black" href="#" id="contact-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contact
+                </a>
+                <div class="dropdown-menu border-0" aria-labelledby="contact-link">
+                    <a href="" class="dropdown-item">Message Us</a>
+  
+                </div>
+            </li>
     </ul>
 </div>
