@@ -1,1 +1,1 @@
-web: gunicorn fit-space.wsgi:application
+web: gunicorn FitSpace.wsgi:application
