@@ -126,7 +126,6 @@ input[name='q']::placeholder {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
     height: 0; 
@@ -138,7 +137,7 @@ input[name='q']::placeholder {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
+/* Copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
