@@ -48,7 +48,7 @@ def checkout(request):
             'postcode': request.POST['postcode'],
             'country': request.POST['country'],
             'phone_number': request.POST['phone_number'],
-    
+
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
