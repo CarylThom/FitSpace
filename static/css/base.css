@@ -6,8 +6,8 @@ body {
     background: url('/media/background2.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: 000;
-    font-family: 'Lato';
+    color: #000;
+    font-family: 'Mulish', sans-serif;
 }
 
 /* top navbar*/
@@ -19,6 +19,14 @@ body {
 .page-header {
     color: #746661;
     text-transform: uppercase;
+}
+/*user and bag text*/
+.nav-link {
+    color: #D3BC8D;
+}
+/*user and bag icon*/
+.user-icon {
+    color: #000;
 }
 
 /* landing page text*/
