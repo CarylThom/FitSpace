@@ -15,6 +15,10 @@ body {
     background-color: #746661;
 }
 
+.main-logo-link {
+    width: fit-content;
+}
+
 /* page header text*/
 .page-header {
     color: #746661;
@@ -35,8 +39,9 @@ body {
     text-transform: uppercase;
 }
 
-.main-logo-link {
-    width: fit-content;
+a.category-badge>span.badge:hover {
+    background: #069ba0 !important;
+    color: #fff !important;
 }
 
 .shop-now-button {
@@ -45,7 +50,6 @@ body {
     min-width: 260px;
 }
 
-/*search button? */
 .btn-black {
     background: black;
     color: #fff;
@@ -53,18 +57,18 @@ body {
 
 .btn-outline-black {
     background: #fff;
-    color: black !important;
-    border: 1px solid black;
+    color: #222 !important;
+    border: 1px solid #000;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: #222;
+    background: #000;
     color: white !important;
 }
 
-/*also search?*/
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -80,12 +84,10 @@ body {
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #000 !important;
 }
 
-.bg-black {
-    background: #000 !important;
-}
+
 
 /*overlay of main image*/
 .overlay {
@@ -96,11 +98,6 @@ body {
     position: fixed;
     background:#D3BC8D;
     z-index: -1;
-}
-
-a.category-badge>span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
 }
 
 .btt-button {
@@ -120,8 +117,6 @@ a.category-badge>span.badge:hover {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
-
-
 
 /* toasts */
 
@@ -145,7 +140,7 @@ input[name='q']::placeholder {
     height: 0;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #000;
     position: absolute;
     top: -10px;
     right: 36px;
@@ -235,7 +230,7 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
+    background-color: r#000;
     border: 1px solid #000;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -254,7 +249,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content a {
-    color: #17a2b8;
+    color: #17a268;
     /* text-info */
 }
 

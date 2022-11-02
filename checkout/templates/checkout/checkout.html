@@ -54,7 +54,7 @@
                     <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                 </div>
                 <div class="col-3 text-right">
-                    <p class="my-0 small text-muted">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                    <p class="my-0 small text-muted">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                 </div>
             </div>
             {% endfor %}
@@ -66,14 +66,14 @@
                     <p class="my-0">Grand Total:</p>
                 </div>
                 <div class="col-3">
-                    <p class="my-0">${{ total | floatformat:2 }}</p>
-                    <p class="my-0">${{ delivery | floatformat:2 }}</p>
-                    <p class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></p>
+                    <p class="my-0">£{{ total | floatformat:2 }}</p>
+                    <p class="my-0">£{{ delivery | floatformat:2 }}</p>
+                    <p class="my-0"><strong>£{{ grand_total | floatformat:2 }}</strong></p>
                 </div>
             </div>
         </div>
         <div class="col-12 col-lg-6">
-            <p class="text-muted">Please fill out the form below to complete your order</p>
+            <p class="text-muted">Please fill out the form to complete your order</p>
             <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                 {% csrf_token %}
                 <fieldset class="rounded px-3 mb-5">
@@ -94,7 +94,7 @@
 
                     <div class="form-check form-check-inline float-right mr-0">
                         {% if user.is_authenticated %}
-                        <label class="form-check-label" for="id-save-info">Save this delivery information to my
+                        <label class="form-check-label" for="id-save-info">Save delivery information to my
                             profile</label>
                         <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info"
                             checked>
@@ -133,7 +133,7 @@
                         <span class="icon">
                             <i class="fas fa-exclamation-circle"></i>
                         </span>
-                        <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+                        <span>Your card will be charged <strong>£{{ grand_total|floatformat:2 }}</strong></span>
                     </p>
                 </div>
             </form>
