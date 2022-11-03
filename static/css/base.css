@@ -32,6 +32,10 @@ body {
 .user-icon {
     color: #000;
 }
+/*main menu nav*/
+.navbar {
+    background-color: #136f86;
+}
 
 /* landing page text*/
 .display-3 {
