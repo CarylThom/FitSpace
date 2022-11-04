@@ -9,6 +9,10 @@ body {
     color: #222;
     font-family: 'Mulish', sans-serif;
 }
+/*account text on main nav*/
+.account {
+    color: #D3BC8D;
+}
 
 /* top navbar*/
 #topnav {
