@@ -19,13 +19,13 @@
         </div>
     </div>
 
-    <div class="col-12 col-lg-6 offset-lg-3">
+    <div class="col-12 col-lg-6 offset-lg-3 pb-1">
         <form method="POST" action="{% url 'contact' %}" class="form mb-2">
             {% csrf_token %}
             {{ form|crispy }}
-            <div class="display-3 text-right mt-4 mb-5 text-center">
-                <a class="btn btn-outline-black" href="{% url 'home' %}">Cancel</a>
-                <button class="display-3 btn btn-black" type="submit">Send us a Message</button>
+            <div class="text-right mt-5 mb-5 text-center">
+                <a class="btn btn-outline-black rounded-1 text-uppercase" href="{% url 'home' %}">Cancel</a>
+                <button class="btn btn-outline-black rounded-1 text-uppercase" type="submit">Send us a Message</button>
             </div>
         </form>
     </div>
