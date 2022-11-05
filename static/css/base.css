@@ -14,6 +14,22 @@ body {
     color: #D3BC8D;
 }
 
+.custom-select {
+    background-color: #fff;
+}
+.card {
+    background-color: #fff;
+}
+/*social links*/
+.social {
+    display: inline;
+    color: #222;
+    margin-left: 5px;
+}
+.social:hover {
+    color: #17a2b8;
+}
+
 /* top navbar*/
 #topnav {
     background-color: #746661;
