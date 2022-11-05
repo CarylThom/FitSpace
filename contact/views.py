@@ -27,7 +27,7 @@ def contact(request):
                 fail_silently=False,
             )
         messages.success(
-            request, 'Thank you for your message, we aim to get back to you within 2 working days.'
+            request, 'Thank you for your message, we aim to get back to you within 48 hours.'
             )
         return redirect('contact')
     context = {
