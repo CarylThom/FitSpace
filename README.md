@@ -42,7 +42,15 @@ Milestone Project 4 Full Stack Frameworks with Django
 
 ### Colour Scheme
 
-* The colours used within this site are  - 
+* The custom colours added to this site are  - 
+
+* ![#65a3b3](https://placehold.co/15x15/65a3b3/65a3b3.png) `#65a3b3`
+* ![#D3BC8D](https://placehold.co/15x15/D3BC8D/D3BC8D.png) `#D3BC8D`
+* ![#746661](https://placehold.co/15x15/746661/746661.png) `#746661`
+* ![#fff](https://placehold.co/15x15/fff/fff.png) `#fff`
+* ![#222](https://placehold.co/15x15/222/222.png) `#222`
+
+
   
 ### Typography
 
@@ -56,7 +64,7 @@ Milestone Project 4 Full Stack Frameworks with Django
 
 ![image](https://user-images.githubusercontent.com/95102264/194755115-4da331c7-2f5f-4a91-a9a4-c869fc601732.png)
 
-* Although the final appearance of the site differs from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create an app/site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
+* Although the final appearance of the site differs from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create a site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
 
 ## CRUD Functionality
 
