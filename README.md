@@ -185,8 +185,42 @@ To fork this project go to the top left of the repository, where you see the For
 ### Media
 
 * Images attributed to: 
-* Background image by 
-* Favicon at [Flaticon](https://www.flaticon.com/) 
+
+* Images taken from [Pexels](https://www.pexels.com/) =
+[Exercise Wheel](https://images.pexels.com/photos/8033019/pexels-photo-8033019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1).
+[White Tshirt](https://www.pexels.com/photo/cheerful-black-woman-wearing-white-t-shirt-and-pants-6311641/).
+[Yellow top](https://www.pexels.com/photo/serious-black-woman-with-hands-in-pockets-against-rusty-wall-6311674/).
+[Gray vest](https://www.pexels.com/photo/fit-woman-in-sportswear-touching-her-hair-6311313/).
+[Hoodie 1](https://www.pexels.com/photo/young-ethnic-woman-in-gray-activewear-standing-against-wooden-wall-6311392/).
+[Hoddie 2](https://www.pexels.com/photo/content-black-woman-in-comfy-sportswear-standing-in-studio-6311317/).
+[Hoddie 3](https://www.pexels.com/photo/content-black-woman-in-comfy-sportswear-in-studio-6311384/).
+[Joggers](https://www.pexels.com/photo/determined-black-boxer-hitting-heavy-bag-during-training-in-gymnasium-6998875/).
+[Shorts](https://www.pexels.com/photo/a-woman-boxing-while-wearing-virtual-reality-goggles-8097324/).
+[Loose vest](https://www.pexels.com/photo/crop-sportswoman-carrying-sport-mat-and-bottle-of-water-before-exercising-4498574/).
+
+* Images taken from [Freepik](https://www.freepik.com/) = 
+[Yoga self care](https://img.freepik.com/free-photo/young-woman-exercising-home_1303-29307.jpg?w=740&t=st=1665952098~exp=1665952698~hmac=59ba9b1df76cbca495a5890fe9e4665b97a2ada3d2e89ecc0e0db14c6e4ef84f).
+[Nutritionist](https://img.freepik.com/free-photo/bag-groceries-with-copy-space_23-2148262102.jpg?w=740&t=st=1665952182~exp=1665952782~hmac=ed68bafbf86169b756aa348dca5c0bc2bc8b1e5f7c34591e17689750eafd1c93).
+[Resistance Band](https://www.freepik.com/free-photo/slim-woman-doing-squats-with-fitness-loop-band-isolated_8471811.htm#query=exercise%20bands&position=13&from_view=search&track=sph).
+[Personal Training](https://www.freepik.com/free-photo/sporty-young-woman-doing-plank-exercise-indoors-home_21130290.htm#query=fitness%20training%20at%20home&position=6&from_view=search&track=sph).
+[Dumbbell](https://www.freepik.com/free-photo/purple-dumbbells-fitness-concept-isolated-white-background-fitness-concept-isolated-white-background-sport-body-building-concept-healthy-lifestyle-sport-diet-sport-equipment-copy-space_1192649.htm#query=dumbells&position=0&from_view=search&track=sph).
+[Kettlebell](https://www.freepik.com/free-photo/woman-training-with-weight-lifting_23440814.htm#query=kettlebell&position=15&from_view=search&track=sph).
+[Trainers](https://www.freepik.com/free-photo/pair-trainers_6048744.htm#query=racool_studio%20trainers&position=2&from_view=search&track=sph).
+[Yoga mat](https://www.freepik.com/free-photo/close-up-hands-holding-mat_10942103.htm#query=yoga%20mat&position=0&from_view=search&track=sph).
+[Vitamins](https://www.freepik.com/free-psd/amber-medicine-bottles-mockup_12582612.htm#page=2&query=pills%20bottle%20mockup&position=11&from_view=search&track=sph).
+[Powder](https://www.freepik.com/free-psd/plastic-whey-protein-powder-jar-mockup_23009843.htm#query=protein%20pwder%20mokup&position=3&from_view=search&track=ais).
+
+* Images taken from [Unsplash](https://unsplash.com/) = 
+[Weightball](https://unsplash.com/photos/9xL_8KCEQqE).
+[Bottle](https://unsplash.com/photos/o6fSMrsqHOk).
+[Blue pants](https://unsplash.com/photos/Y1drF0Y3Oe0).
+[Vest](https://unsplash.com/photos/Z72YujnOrlY).
+
+
+* Background image = [Background image by Senivpetro on Freepik](https://www.freepik.com/free-photo/young-woman-boxer-training-gym_6255898.htm#page=2&query=fitness&position=0&from_view=search&track=sph).
+
+* About us image = [About us page image by Freepik on Freepik](https://www.freepik.com/free-photo/medium-shot-smiley-women-running-together_20081880.htm#query=healthy%20women%20outside&position=45&from_view=search&track=sph).
+* Favicon at [Flaticon](https://www.flaticon.com/free-icon/lotus_2647603?term=yoga&page=1&position=23&page=1&position=23&related_id=2647603&origin=search).  
 
 
 ### Future features
