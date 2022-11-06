@@ -102,7 +102,7 @@ Milestone Project 4 Full Stack Frameworks with Django
 For all testing documentation, please refer to the [TESTING.md](TESTING.md) file.
 ## Deployment
 
-The site was deployed to Heroku. The live link can be found at [FitSpace]()
+The site was deployed to Heroku. The live link can be found at [FitSpace](https://fit-space.herokuapp.com/)
 
 The steps to deploy a Heroku app are as follows: 
 1.  Log in to Heroku or create an account if required.
@@ -166,23 +166,20 @@ To fork this project go to the top left of the repository, where you see the For
 
 ## Credits
 
+
 ### Acknowledgements
 
-* Mentor Tim Nelson at Code Institute
-
-* Reviewing/revisiting lessons from the relevant sections of the course via Code Institute. 
-
-* Tutors and student support at Code Institute
-
-* Slack
-
+* Code Institute Boutique Ado Project: Much of this project was copied and adapted from the Code Institute 'Boutique Ado' project.
+* My Mentor Tim Nelson, for his great help, guidance and patience throughout. 
+* Tutors and student support at Code Institute.
+* Reviewing/revisiting other lessons from the relevant sections of the course via Code Institute. 
+* Code Institute Slack Channel, the tutors, staff and fellow students for help answering my many questions. 
 * [Stack Overflow](http://www.stackoverflow.com)
-
 * [w3schools](http://www.w3schools.com)
 
 ### Content
 
-* All content was written by the developer except for sections of code that was learned from relevant lessons of the course.
+* All content on the site was either taken from the Boutique Ado project, or written by the developer.
 
 
 ### Media
