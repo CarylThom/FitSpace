@@ -5,7 +5,7 @@
 Milestone Project 4 Full Stack Frameworks with Django
 ## Description
 
-* FitSpace is a site dedicated to the fitness and health of women. Users can register to join the community set up around the site. Products will be availabe for users to purchase to help aid their fitness, recovery and nutriton.
+* FitSpace is a site dedicated to the fitness and health of women. Users can register to join the community set up around the site. It is an e-commerce platform  offering products for users to purchase to help aid their fitness, recovery and nutriton. 
 
  ## User Experience (UX)
 
@@ -26,16 +26,29 @@ Milestone Project 4 Full Stack Frameworks with Django
 * As a Returning Visitor – I will continue to gain fitness/health guidance from the site = New products and specialist help will be added regularly. 
 
 
+## Features
+
+Features of the FitSpace website include:
+
+* Register: The site visitor can add their details to open an account on the site.
+* Sign In: The site visitor can login to the site if they are an existing user.
+* Contact: Any User can contact the site owner by email.
+* Logout: Alows users to log out of their account.
+* Sort: Any user can sort the products by price, name or category.
+* Search: Any user can search the site using keywords.
+* Checkout: Any user can make a secure purchase using Stripe.
+
+### CRUD Functionality
+
+The FitSpace website has been built around the principles of CRUD (Create, Read, Update, Delete). All of these actions can be implemented on the site:
+
+* Add Product: The superuser (Admin) can add products to the database.
+* View Products: Any user can view the offered items and the superuser (Admin) can also view them within the database.
+* Edit Product: The superuser (Admin) can edit products that are already in the database.
+* Delete Product: The superuser (Admin) can delete products that are already in the database.
+
+
 ## Design
-
-### Features
-
-* The site features a Register and Log in page 
-* The site features 
-* The site has extra features for admin only (where admin can add and remove categories/products) 
-* The site has a feature for 
-* The site has a feature where  
-
 ### General design
 
 * The site has a  
@@ -66,14 +79,6 @@ Milestone Project 4 Full Stack Frameworks with Django
 
 * Although the final appearance of the site differs from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create a site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
 
-## CRUD Functionality
-
-* Full CRUD functionality is demonstrated within the site
-
-* Create - Admin can create a new record within the database by adding new categories or products.
-* Read - Admin and/or users can then read the information from the database when they click on the relevant sections.
-* Update - Admin can edit or update the categories and products.
-* Delete - Admin can also delete the categories and products.
 
  ## Languages Used
 
@@ -81,8 +86,6 @@ Milestone Project 4 Full Stack Frameworks with Django
 * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
 * [JavaScript (ES6)](https://en.wikipedia.org/wiki/JavaScript)
 * [Python3](https://en.wikipedia.org/wiki/Python_(programming_language))
-
-
 
 ## Frameworks, Libraries & Programs Used
 
