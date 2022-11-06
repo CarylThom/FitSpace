@@ -5,7 +5,7 @@
 Milestone Project 4 Full Stack Frameworks with Django
 ## Description
 
-* FitSpace is a site dedicated to the fitness and health of women. Users can register/subscribe/join the community set up around the site. Products will be availabe for users to purchase to help aid their fitness, recovery and nutriton.
+* FitSpace is a site dedicated to the fitness and health of women. Users can register to join the community set up around the site. Products will be availabe for users to purchase to help aid their fitness, recovery and nutriton.
 
  ## User Experience (UX)
 
@@ -46,7 +46,8 @@ Milestone Project 4 Full Stack Frameworks with Django
   
 ### Typography
 
-* There are two fonts used for this site 
+* 'Mulish' was chosen as the main font of the site with 'sans-serif' as the fallback font.
+* 'Kalama' was used in the design of the FitSpace logo'.
 
 ### Imagery 
 
@@ -55,13 +56,13 @@ Milestone Project 4 Full Stack Frameworks with Django
 
 ![image](https://user-images.githubusercontent.com/95102264/194755115-4da331c7-2f5f-4a91-a9a4-c869fc601732.png)
 
-* The initial concept of the wireframe design was to create an app/site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
+* Although the final appearance of the site differs from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create an app/site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
 
 ## CRUD Functionality
 
 * Full CRUD functionality is demonstrated within the site
 
-*   Create - Admin can create a new record within the database by adding new categories or products.
+* Create - Admin can create a new record within the database by adding new categories or products.
 * Read - Admin and/or users can then read the information from the database when they click on the relevant sections.
 * Update - Admin can edit or update the categories and products.
 * Delete - Admin can also delete the categories and products.
@@ -74,21 +75,27 @@ Milestone Project 4 Full Stack Frameworks with Django
 * [Python3](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 
+
 ## Frameworks, Libraries & Programs Used
 
+* [Django](https://www.djangoproject.com/)
+* Django Crispy Forms: was used for all forms on the site.
+* Django Allauth: was used for user authentication on the site.
+* [Stripe](https://stripe.com/en-gb): Was used to handle payments on the site.
+* [Bootstrap](https://getbootstrap.com/): Was used to aid reponsive design.
+* [Amazon Web Services S3](https://aws.amazon.com/): Used to store static CSS and Javascript files, and images.
 * [Google Fonts](https://fonts.google.com/): Was used for the main font(s).
-
 * [Font Awesome](https://fontawesome.com/): Was used for all icons.
-
+* [Google Fonts](https://fonts.google.com/): Was used for all font choices.
 * [Git](https://www.gitpod.io): Was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-
 * [GitHub](https://github.com/): Was used to store the project code after being pushed from Git. 
- 
-* [https://www.Responsivedesignchecker.com]
-
 * Pencil: Pencil was used to create the wireframe.
-
-* Materialize or Bootstrap?
+* [Heroku](https://heroku.com/): Hosts the Milestone Project 4 (FitSpace) website.
+* [SQLite3](https://www.sqlite.org/): The database that was used in production.
+* [PostgreSQL](https://www.postgresql.org/): The database used by the deployed site.
+* [JQuery](https://jquery.com/): Used extensively throughout the site to provide functionality for Bootstrap elements, and for Stripe.
+* [https://www.Responsivedesignchecker.com]: Used to check the responsive design of the site on various devices.
+* [Canva](https://www.canva.com/): Was used to create the FitSpace logo.
 
 ## Testing
 

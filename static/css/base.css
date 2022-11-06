@@ -20,6 +20,7 @@ body {
 .card {
     background-color: #fff;
 }
+
 /*social links*/
 .social {
     display: inline;
@@ -28,8 +29,8 @@ body {
 }
 .social:hover {
     color: #17a2b8;
+   
 }
-
 /* top navbar*/
 #topnav {
     background-color: #746661;
