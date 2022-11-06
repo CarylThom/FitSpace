@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/95102264/200198834-405e318f-cf53-49e3-8d7b-3615f2b73c6b.png)
+
 # Title
 
 ## FitSpace
@@ -238,7 +240,7 @@ To fork this project go to the top left of the repository, where you see the For
 ### Acknowledgements
 
 * Code Institute Boutique Ado Project: Much of this project was copied and adapted from the Code Institute 'Boutique Ado' project.
-* My Mentor Tim Nelson, for his great help, guidance and patience throughout. 
+* My mentor Tim Nelson, for his great help, guidance and patience throughout. 
 * Tutors and student support at Code Institute.
 * Reviewing/revisiting other lessons from the relevant sections of the course via Code Institute. 
 * Code Institute Slack Channel, the tutors, staff and fellow students for help answering my many questions. 
