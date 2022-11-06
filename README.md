@@ -42,16 +42,67 @@ Features of the FitSpace website include:
 
 The FitSpace website has been built around the principles of CRUD (Create, Read, Update, Delete). All of these actions can be implemented on the site:
 
-* Add Product: The superuser (Admin) can add products to the database.
-* View Products: Any user can view the offered items and the superuser (Admin) can also view them within the database.
-* Edit Product: The superuser (Admin) can edit products that are already in the database.
-* Delete Product: The superuser (Admin) can delete products that are already in the database.
+* **Add Product:** The superuser (Admin) can add products to the database.
+* **View Products:** Any user can view the offered items and the superuser (Admin) can also view them within the database.
+* **Edit Product:** The superuser (Admin) can edit products that are already in the database.
+* **Delete Product:** The superuser (Admin) can delete products that are already in the database.
 
 
 ## Design
-### General design
+### General design layout & use
 
-* The site has a  
+### Top Navbar:
+
+* **Search box:** Search the site using key words.
+
+* **My Account:** dropdown menu with the following options:<br />
+	**Login:** Login for existing users.<br />
+    **Register:** Register as a user.
+
+* **Shopping Bag Icon:** Click here to navigate to the shopping bag page.
+
+### Main Navbar:
+
+*  **FitSpace** dropdown menu with the following options:<br />
+    **About Us:** A short biography of the company.<br />
+    **Contact Us:** See contact details or contact the business via a contact form.<br />
+    **Social media links:** links to the homepages of  Facebook, Twitter, Instagram, TikTok & YouTube.
+
+*  **Fitness Products** dropdown menu with the following options:<br />
+    **By Price:** Display items by price.<br />
+    **By Ratings:** Display items by ratings.<br />
+    **By Categories:** Display items by categories.<br />
+    **All Products:** Display all products.
+
+*  **Your Fitness** dropdown menu with the following options:<br />
+    **Clothing:** Show the selection of clothing on offer.<br />
+    **Equipment:** Show the selection of fitness equipment on offer.<br />
+    **Nutrition:** Show the selection nutritional supplements on offer.
+
+* **Fitness Plans** dropdown menu with the following options:<br />
+    **Fitness:** Show all products related to fitness.<br />
+    **Nutrition:** Show all products related to nutrition.<br />
+    **Recover:** Show all products on recovery and self-care.
+
+* Accessible only to signed- in/registered users on the Top Navbar:<br />
+**My Account:** > **My Profile:** To navigate to the session user's profile page.<br />
+**Logout:** To logout of the site.
+
+* Accessible only to Superusers/Admin on the Top Navbar:<br />
+**Product Admin:** To Use CRUD functionality to manage the site.
+
+* Accessible to all users on the Products page:<br />
+**Sort Box:** Allows the user to sort the items by price, rating, name and category.
+
+* Accessible to Superusers/Admin only on the Products page:<br />
+**Edit:** Allows Admin to edit a product. <br />
+**Delete:** Allows Admin to delete a product.
+
+* Accessible to Superusers/Admin on the Product Admin page:<br />
+**Edit:** Allows Admin to edit a product.<br />
+**Delete:** Allows Admin to delete a product.
+
+  
 
 ### Colour Scheme
 
@@ -127,6 +178,12 @@ The steps to deploy a Heroku app are as follows:
     *   `PORT` = 5000
     *   `DEBUG` = set to 'True' during development and 'False' upon deployment.
     *   `IP` = 0.0.0.0
+    *   `AWS_ACCESS_KEY_ID` = The access key supplied by AWS.
+    *   `AWS_SECRET_ACCESS_KEY` = The secret key supplied by AWS.
+    *   `STRIPE_PUBLIC_KEY` = The publishable key supplied by Stripe.
+    *   `STRIPE_SECRET_KEY` = The secret key supplied by Stripe.
+    *   `STRIPE_WH_SECRET` = The Stripe webhook secret key.
+    *   `USE_AWS` = To verify the use of AWS.
 
 Please see this [official documentation](https://devcenter.heroku.com/articles/config-vars) on Heroku configuration for more details.
 
@@ -150,7 +207,7 @@ Cloning a repository makes it easier to contribute, fix merge conflicts, add or 
 2.  Above the list of files, click Code.
 3.  Click Use GitHub CLI, then the copy icon.
 4.  Open Git Bash and change the current working directory to the location where you want the cloned directory.
-5.  Type git clone, and then paste the URL that was copied from step 3 above - i.e., `git clone https://github.com/CarylThom/FitSpace.git`
+5.  Type git clone, and then paste the URL that was copied from step 3 above - i.e., `git clone https://github.com/CarylThom/FitSpace`
 6. Press Enter to create the local clone.
 
 ### Forking
