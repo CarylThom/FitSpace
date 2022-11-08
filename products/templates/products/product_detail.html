@@ -71,7 +71,7 @@
                                     <div class="input-group">
                                         <div class="input-group input-group-{{ product.id }}"></div>
                                         <div class="input-group-prepend">
-                                            <button class="decrement-qty btn btn-black rounded-1"
+                                            <button class="decrement-qty btn btn-black rounded-0"
                                                 data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
                                                 <span class="icon">
                                                     <i class="fas fa-minus"></i>
@@ -83,7 +83,7 @@
                                             data-item_id="{{ product.id }}"
                                             id="id_qty_{{ product.id }}">
                                         <div class="input-group-append">
-                                            <button class="increment-qty btn btn-black rounded-1"
+                                            <button class="increment-qty btn btn-black rounded-0"
                                                 data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
                                                 <span class="icon">
                                                     <i class="fas fa-plus"></i>
@@ -99,9 +99,9 @@
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
-                                    <span class="text-uppercase">Back to Products</span>
+                                    <span class="text">Back to Products</span>
                                 </a>
-                                <input type="submit" class="btn btn-black rounded-1 text-uppercase mt-5" value="Add to Bag">
+                                <input type="submit" class="btn btn-black rounded-1 mt-5" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
