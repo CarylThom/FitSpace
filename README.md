@@ -13,32 +13,44 @@ Milestone Project 4 Full Stack Frameworks with Django
 
 ### First Time Visitor Goals
 
-* As a First Time Visitor - I would like to visit a site that is easy to navigate = Landing page holds all navigation options, links and search bar
+* **As a First Time Visitor** - I would like to visit a site that is easy to navigate = The site landing page holds all navigation options such as links to all locations and a search bar
 
-* As a First Time Visitor - I would like to visit this site to whats available for my training needs = Browse through the products available.
+* **As a First Time Visitor** - I would like to visit this site to discover what's available for my training needs = The user can browse all the products available or sort them by price, categoy and rating
 
-* As a First Time Visitor – I would like to access guidance on how to manage my fitness/health = Site provides specially constructed fitness packages.
+* **As a First Time Visitor** – I would like to access guidance on how to manage my fitness/health = The site offers specially constructed fitness packages for all the users needs.
 
 ### Returning/Frequent Visitor Goals
 
-* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links to keep users connected by sharing further ideas, stories and images. 
+* **As a Returning Visitor** – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links to keep users connected by sharing their own ideas, stories and images.  
 
-* As a Returning Visitor - I will return to the site to purchase more items = Being a registered user will allow for special offers and discounts on items. 
+* **As a Returning Visitor** - I will return to the site to purchase more items = Being a registered user will allow for special offers and discounts on items. 
 
-* As a Returning Visitor – I will continue to gain fitness/health guidance from the site = New products and specialist help will be added regularly. 
+* **As a Returning Visitor** – I will continue to gain fitness/health guidance from the site = New products and specialist help will be added regularly. 
 
 
 ## Features
 
 Features of the FitSpace website include:
 
-* Register: The site visitor can add their details to open an account on the site.
-* Sign In: The site visitor can login to the site if they are an existing user.
-* Contact: Any User can contact the site owner by email.
-* Logout: Alows users to log out of their account.
-* Sort: Any user can sort the products by price, name or category.
-* Search: Any user can search the site using keywords.
-* Checkout: Any user can make a secure purchase using Stripe.
+* **Register**: The site visitor can add their details to open an account on the site.
+* **Sign In**: The site visitor can login to the site if they are an existing user.<br>
+![image](https://user-images.githubusercontent.com/95102264/200604140-2498e867-f057-4b05-8724-dba16b511812.png)<br>
+* **Contact**: Any User can contact the site owner by email.<br>
+![image](https://user-images.githubusercontent.com/95102264/200607528-29b44b79-9ff1-4fd1-9280-0363d6494ed7.png)<br>
+* **Logout**: Alows users to log out of their account.
+* **My Profile**: Registered users can view their profile/shopping history.<br>
+![image](https://user-images.githubusercontent.com/95102264/200606500-ecbde75c-ce20-46c2-8396-df31660f21ea.png)<br>
+
+* **Sort**: Any user can sort the products by price, name or category.<br>
+![image](https://user-images.githubusercontent.com/95102264/200605763-65901889-d910-419e-afaf-47ec01d1ac75.png)<br>
+* **Search**: Any user can search the site using keywords. <br>
+![image](https://user-images.githubusercontent.com/95102264/200603437-74525397-7822-4597-85b7-cdfddd96fa1e.png)<br>
+* **Checkout**: Any user can make a secure purchase using Stripe.<br>
+![image](https://user-images.githubusercontent.com/95102264/200607935-b73ccc14-6bba-4a7a-94d3-27f1315fc6ca.png)<br>
+* **Social Media**: Any user can access FitSpace social media links.<br>
+![image](https://user-images.githubusercontent.com/95102264/200605391-4f8ee83d-482a-4f3d-b953-b9fa3280e63f.png)<br>
+* **Admin**: Admin/Superusers can access all areas of the site.<br>
+![image](https://user-images.githubusercontent.com/95102264/200607213-a1b7d1d8-4763-4755-8331-3b8342acf65f.png)<br>
 
 ### CRUD Functionality
 
