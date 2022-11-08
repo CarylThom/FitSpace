@@ -1,20 +1,20 @@
 ## Testing for FitSpace project.
 
-### HTML5 using [W3C Markup Validator](https://validator.w3.org/images/w3c.png)
+### HTML5 
 
-* base.html: 
+* W3 Markup Vlidation report: Using [W3C Markup Validator](https://validator.w3.org/)
 
-### CSS3 using [W3C CSS Validator](http://www.w3.org/)
+### CSS3 
 
-* W3C CSS Validator report: 
+* W3C CSS Validator report: Using [W3C CSS Validator](http://www.w3.org/)
 
-### Javascript (ES6) using {beautifytools](https://beautifytools.com/javascript-validator.php)
+### Javascript (ES6) 
 
-* Javascript validation report: 
+* Javascript validation report: Using [beautifytools](https://beautifytools.com/javascript-validator.php)
 
-## Python3 using [extendsclass](https://extendsclass.com/)
+### Python3 
 
-* 
+* PEP8 Python Validation report: Using using [extendsclass](https://extendsclass.com/)
 
 ## Lighthouse test report
 
