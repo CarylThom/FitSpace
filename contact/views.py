@@ -11,12 +11,6 @@ def contact(request):
     """ Contact form view """
     contact_form = ContactForm(request.POST or None)
     if request.method == "POST":
-        # form_data = {
-        #     'name': request.POST.get('name', ''),
-        #     'email': request.POST.get('email', ''),
-        #     'message': request.POST.get('message', '')
-        # }
-        # print(f"FORM_DATA: {form_data}")
 
         if contact_form.is_valid():
             print("Form is valid")
