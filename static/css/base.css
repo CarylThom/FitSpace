@@ -222,6 +222,7 @@ input[name='q']::placeholder {
     }
 }
 
+
 /* Allauth form formatting taken from lesson */
 
 .allauth-form-inner-content p {
@@ -275,7 +276,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content a {
-    color: #17a268;
+    color: #17a2b8;
     /* text-info */
 }
 

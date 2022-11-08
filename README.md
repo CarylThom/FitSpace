@@ -33,7 +33,7 @@ Milestone Project 4 Full Stack Frameworks with Django
 Features of the FitSpace website include:
 
 * **Register**: The site visitor can add their details to open an account on the site.
-* **Sign In**: The site visitor can login to the site if they are an existing user.<br>
+* **LogIn**: The site visitor can login to the site if they are an existing user.<br>
 ![image](https://user-images.githubusercontent.com/95102264/200604140-2498e867-f057-4b05-8724-dba16b511812.png)<br>
 * **Contact**: Any User can contact the site owner by email.<br>
 ![image](https://user-images.githubusercontent.com/95102264/200607528-29b44b79-9ff1-4fd1-9280-0363d6494ed7.png)<br>
@@ -56,10 +56,14 @@ Features of the FitSpace website include:
 
 The FitSpace website has been built around the principles of CRUD (Create, Read, Update, Delete). All of these actions can be implemented on the site:
 
-* **Add Product:** The superuser (Admin) can add products to the database.
-* **View Products:** Any user can view the offered items and the superuser (Admin) can also view them within the database.
-* **Edit Product:** The superuser (Admin) can edit products that are already in the database.
-* **Delete Product:** The superuser (Admin) can delete products that are already in the database.
+* **Add Product:** The superuser (Admin) can add products to the database.<br>
+![image](https://user-images.githubusercontent.com/95102264/200648019-3cb62a86-ffbd-436e-975a-4080380f38f4.png)<br>
+* **View Products:** Any user can view the offered items and the superuser (Admin) can also view them within the database.<br>
+![image](https://user-images.githubusercontent.com/95102264/200648177-f5d9dab0-670c-4cd4-b765-dd4193415daa.png)<br>
+* **Edit Product:** The superuser (Admin) can edit products that are already in the database.<br>
+![image](https://user-images.githubusercontent.com/95102264/200648559-1083da32-ea4c-4b39-b764-074cf32a6a5e.png)<br>
+* **Delete Product:** The superuser (Admin) can delete products that are already in the database.<br>
+![image](https://user-images.githubusercontent.com/95102264/200648913-6c9c20b9-8fd5-4a2d-b3ad-da4ce4b43aaa.png)
 
 
 ## Design
@@ -67,36 +71,41 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 
 ### Top Navbar:
 
-* **Search box:** Search the site using key words.
+* **Search box:** Search the site using key words.<br>
 
 * **My Account:** dropdown menu with the following options:<br />
 	**Login:** Login for existing users.<br />
-    **Register:** Register as a user.
+    **Register:** Register as a user.<br>
+    ![image](https://user-images.githubusercontent.com/95102264/200604140-2498e867-f057-4b05-8724-dba16b511812.png)
 
-* **Shopping Bag Icon:** Click here to navigate to the shopping bag page.
-
+* **Shopping Bag Icon:** Click here to navigate to the shopping bag page.<br>
+![image](https://user-images.githubusercontent.com/95102264/200649428-0868463f-8f8b-4c36-9f32-4491b1ddfc92.png)
 ### Main Navbar:
 
 *  **FitSpace** dropdown menu with the following options:<br />
     **About Us:** A short biography of the company.<br />
     **Contact Us:** See contact details or contact the business via a contact form.<br />
-    **Social media links:** links to the homepages of  Facebook, Twitter, Instagram, TikTok & YouTube.
+    **Social media links:** links to the homepages of  Facebook, Twitter, Instagram, TikTok & YouTube.<br>
+    ![image](https://user-images.githubusercontent.com/95102264/200649636-cd3efbdc-d17d-4147-b6e6-70d3376af949.png)
 
 *  **Fitness Products** dropdown menu with the following options:<br />
     **By Price:** Display items by price.<br />
     **By Ratings:** Display items by ratings.<br />
     **By Categories:** Display items by categories.<br />
-    **All Products:** Display all products.
+    **All Products:** Display all products.<br>
+    ![image](https://user-images.githubusercontent.com/95102264/200649822-3ce81144-805f-43a4-8da1-8a4e6a60cd47.png)
 
 *  **Your Fitness** dropdown menu with the following options:<br />
     **Clothing:** Show the selection of clothing on offer.<br />
     **Equipment:** Show the selection of fitness equipment on offer.<br />
-    **Nutrition:** Show the selection nutritional supplements on offer.
+    **Nutrition:** Show the selection nutritional supplements on offer.<br>
+    ![image](https://user-images.githubusercontent.com/95102264/200649997-ddfbccc5-d788-469c-b765-32b6e0617808.png)
 
 * **Fitness Plans** dropdown menu with the following options:<br />
     **Fitness:** Show all products related to fitness.<br />
     **Nutrition:** Show all products related to nutrition.<br />
-    **Recover:** Show all products on recovery and self-care.
+    **Recover:** Show all products on recovery and self-care.<br>
+    ![image](https://user-images.githubusercontent.com/95102264/200650147-6cf525d8-0389-4ed5-9fc0-617172224d0e.png)
 
 * Accessible only to signed- in/registered users on the Top Navbar:<br />
 **My Account:** > **My Profile:** To navigate to the session user's profile page.<br />
@@ -129,11 +138,12 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 * ![#222](https://placehold.co/15x15/222/222.png) `#222`
 
 
-  
-### Typography
+  ### Typography
 
-* 'Mulish' was chosen as the main font of the site with 'sans-serif' as the fallback font.
-* 'Kalama' was used in the design of the FitSpace logo'.
+* 'Mulish' <br>![image](https://user-images.githubusercontent.com/95102264/200651279-e142e3cd-52b5-40ef-989d-425e172ada05.png)<br>
+(Designed by Vernon Adams, Cyreal, Jacques Le Bailly) was chosen as the main font of the site with 'sans-serif' as the fallback font.
+* 'Kalam'<br>![image](https://user-images.githubusercontent.com/95102264/200651924-3ba3d621-85e9-49fa-9c4f-04164acce70f.png)<br>
+ (Designed by Indian Type Foundry) was used in the design of the FitSpace logo'.
 
 ### Imagery 
 
@@ -231,19 +241,7 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 To fork this project go to the top left of the repository, where you see the Fork Icon and click Fork.  This will create a copy of the repository for you.
 
 ## Data Structure
-## Browser Compatibility
 
-* Microsoft Edge 
-
-* Google Chrome 
-
-* Mozilla Firefox 
-
-* Site is responsive on all mobile devices:
-
-* Phone 
-
-* Tablet 
 
 
 ## Credits
@@ -268,7 +266,7 @@ To fork this project go to the top left of the repository, where you see the For
 
 * Images attributed to: 
 
-* Images taken from [Pexels](https://www.pexels.com/) =
+* Product images taken from [Pexels](https://www.pexels.com/) =
 [Exercise Wheel](https://images.pexels.com/photos/8033019/pexels-photo-8033019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1).
 [White Tshirt](https://www.pexels.com/photo/cheerful-black-woman-wearing-white-t-shirt-and-pants-6311641/).
 [Yellow top](https://www.pexels.com/photo/serious-black-woman-with-hands-in-pockets-against-rusty-wall-6311674/).
@@ -280,7 +278,7 @@ To fork this project go to the top left of the repository, where you see the For
 [Shorts](https://www.pexels.com/photo/a-woman-boxing-while-wearing-virtual-reality-goggles-8097324/).
 [Loose vest](https://www.pexels.com/photo/crop-sportswoman-carrying-sport-mat-and-bottle-of-water-before-exercising-4498574/).
 
-* Images taken from [Freepik](https://www.freepik.com/) = 
+* Product images taken from [Freepik](https://www.freepik.com/) = 
 [Yoga self care](https://img.freepik.com/free-photo/young-woman-exercising-home_1303-29307.jpg?w=740&t=st=1665952098~exp=1665952698~hmac=59ba9b1df76cbca495a5890fe9e4665b97a2ada3d2e89ecc0e0db14c6e4ef84f).
 [Nutritionist](https://img.freepik.com/free-photo/bag-groceries-with-copy-space_23-2148262102.jpg?w=740&t=st=1665952182~exp=1665952782~hmac=ed68bafbf86169b756aa348dca5c0bc2bc8b1e5f7c34591e17689750eafd1c93).
 [Resistance Band](https://www.freepik.com/free-photo/slim-woman-doing-squats-with-fitness-loop-band-isolated_8471811.htm#query=exercise%20bands&position=13&from_view=search&track=sph).
@@ -292,19 +290,23 @@ To fork this project go to the top left of the repository, where you see the For
 [Vitamins](https://www.freepik.com/free-psd/amber-medicine-bottles-mockup_12582612.htm#page=2&query=pills%20bottle%20mockup&position=11&from_view=search&track=sph).
 [Powder](https://www.freepik.com/free-psd/plastic-whey-protein-powder-jar-mockup_23009843.htm#query=protein%20pwder%20mokup&position=3&from_view=search&track=ais).
 
-* Images taken from [Unsplash](https://unsplash.com/) = 
+* Product images taken from [Unsplash](https://unsplash.com/) = 
 [Weightball](https://unsplash.com/photos/9xL_8KCEQqE).
 [Bottle](https://unsplash.com/photos/o6fSMrsqHOk).
 [Blue pants](https://unsplash.com/photos/Y1drF0Y3Oe0).
 [Vest](https://unsplash.com/photos/Z72YujnOrlY).
 
 
-* Background image = [Background image by Senivpetro on Freepik](https://www.freepik.com/free-photo/young-woman-boxer-training-gym_6255898.htm#page=2&query=fitness&position=0&from_view=search&track=sph).
+* Main background image = [By Senivpetro on Freepik](https://www.freepik.com/free-photo/young-woman-boxer-training-gym_6255898.htm#page=2&query=fitness&position=0&from_view=search&track=sph).<br>
+![image](https://user-images.githubusercontent.com/95102264/200653593-5cb5f680-5e19-4c01-a8b2-63fa6063849c.png)<br>
 
-* About us image = [About us page image by Freepik on Freepik](https://www.freepik.com/free-photo/medium-shot-smiley-women-running-together_20081880.htm#query=healthy%20women%20outside&position=45&from_view=search&track=sph).
-* Favicon at [Flaticon](https://www.flaticon.com/free-icon/lotus_2647603?term=yoga&page=1&position=23&page=1&position=23&related_id=2647603&origin=search).  
+* About us image = [Created by Freepik on Freepik](https://www.freepik.com/free-photo/medium-shot-smiley-women-running-together_20081880.htm#query=healthy%20women%20outside&position=45&from_view=search&track=sph).<br>
+![image](https://user-images.githubusercontent.com/95102264/200654289-741327b3-b507-49f6-809e-d48614d784be.png)<br>
+
+* Favicon & Site logo = [Created by monkik at Flaticon](https://www.flaticon.com/free-icon/lotus_2647603?term=yoga&page=1&position=23&page=1&position=23&related_id=2647603&origin=search). <br>
+![image](https://user-images.githubusercontent.com/95102264/200654714-dfa7abaf-ff33-430a-9a2d-a41d36903d94.png) 
 
 
 ### Future features
 
-* With further development,         
+* With further development         

@@ -19,3 +19,19 @@
 ## Lighthouse test report
 
 * 
+
+## Browser Compatibility
+
+* Site is responsive on all main browsers:
+
+* Microsoft Edge 
+
+* Google Chrome 
+
+* Mozilla Firefox 
+
+* Site is responsive on all mobile devices:
+
+* Phone 
+
+* Tablet 
