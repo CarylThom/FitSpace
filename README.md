@@ -188,6 +188,7 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 For all testing documentation, please refer to the [TESTING.md](TESTING.md) file.
 ## Deployment
 
+* ### **To Heroku**
 The site was deployed to Heroku. The live link can be found at [FitSpace](https://fit-space.herokuapp.com/)
 
 The steps to deploy a Heroku app are as follows: 
@@ -240,13 +241,43 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 To fork this project go to the top left of the repository, where you see the Fork Icon and click Fork.  This will create a copy of the repository for you.
 
+* ### **With AWS** <br>
+All Static and media files for the deployed version of the site are hosted in a Amazon Web Services(AWS) S3 bucket. In order to create your own bucket, please follow the instructions on the AWS website [Here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html).
+
+Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/.<br>
+Choose Create bucket. <br>
+The Create bucket wizard opens.<br>
+In Bucket name, enter a DNS-compliant name for your bucket.<br>
+Add 'storages' to INSTALLED_APPS in settings.py. <br>
+Add the following code to settings.py in order to link the AWS bucket to the website: (example)<br>
+
+if 'USE_AWS' in os.environ:<br>
+    # Bucket Config<br>
+    AWS_STORAGE_BUCKET_NAME = 'fitspace'<br>
+    AWS_S3_REGION_NAME = 'eu-west-2'<br>
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')<br>
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')<br>
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'<br>
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+Create a custom_storages.py file in the root level of the project. Inside it, include the locations of the Static Storage and Media Storage.<br>
+Delete DISABLE_COLLECTSTATIC from the Heroku Config Variables.<br>
+Finally, push to GitHub, and all changes should be automatically pushed to Heroku.
+
 ## Data Structure
 
 
 
 ## Credits
-
-
 ### Acknowledgements
 
 * Code Institute Boutique Ado Project: Much of this project was copied and adapted from the Code Institute 'Boutique Ado' project.

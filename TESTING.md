@@ -14,7 +14,7 @@
 
 ### Python3 
 
-* PEP8 Python Validation report: Using using F;ask8
+* PEP8 Python Validation report: Using using Flask8
 
 ## Lighthouse test report
 
