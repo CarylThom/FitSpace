@@ -275,7 +275,7 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 
 ## Data Structure
 
-
+![image](https://user-images.githubusercontent.com/95102264/200966065-c1c8ce85-2647-462c-b84d-9f48e7bdac47.png)
 
 ## Credits
 ### Acknowledgements
