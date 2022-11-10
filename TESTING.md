@@ -16,6 +16,11 @@
 
 * PEP8 Python Validation report: Using using Flask8
 
+### Stripe Payment
+
+* All Stripe payments are being processed correctly<br>
+![image](https://user-images.githubusercontent.com/95102264/201079102-39aab61e-8dba-4eef-b975-eb9bb953958f.png)
+
 ## Lighthouse test report
 
 * ![image](https://user-images.githubusercontent.com/95102264/200916026-ce92c4e1-8dd3-49dd-8e3e-8718644954d1.png)
