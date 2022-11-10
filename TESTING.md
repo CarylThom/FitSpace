@@ -23,7 +23,31 @@
 ### Stripe Payment
 
 * All Stripe payments are being processed correctly<br>
-![image](https://user-images.githubusercontent.com/95102264/201079927-01a46deb-e5ca-4c4b-a9e4-c1b8ff97d8b4.png)
+![image](https://user-images.githubusercontent.com/95102264/201218882-86b79ac6-cc17-415b-a188-ac6fc2b046ef.png)
+
+### Admin
+
+* **Orders**
+* All orders are being processed <br>  
+![image](https://user-images.githubusercontent.com/95102264/201215815-f0250465-525b-4476-8066-5d3bec728113.png)<br>
+
+And entering the database <br>
+![image](https://user-images.githubusercontent.com/95102264/201216126-fa7b36d5-2bb4-4252-a797-9cff81cdc88c.png)
+
+* **Register**
+* Users are fully able to register for an account that is then stored in the database<br>
+![image](https://user-images.githubusercontent.com/95102264/201216666-34ebb66e-b698-4123-ad12-cc1794833385.png)<br>
+
+Users are then able to view order history in their Profile <br>
+![image](https://user-images.githubusercontent.com/95102264/201217048-34840a0d-53cd-47f2-805e-2e32517772cb.png)<br>
+
+Users can then log out of their account/profile <br>
+![image](https://user-images.githubusercontent.com/95102264/201217404-e37fdeb1-c76f-4a64-8b47-c23174adfa8b.png)
+
+* **Contact**
+* Information gathered from the contact form is stored within the database <br>
+![image](https://user-images.githubusercontent.com/95102264/201218298-7e504117-d94d-4ffb-8b8c-319a47e69f96.png)
+
 
 ## Lighthouse test report
 
