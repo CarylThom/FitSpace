@@ -67,8 +67,7 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 
 
 ## Design
-### General design layout & use
-
+### General design layout & Use
 ### Top Navbar:
 
 * **Search box:** Search the site using key words.<br>
@@ -154,8 +153,7 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 
 * Although the final appearance of the site differs from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create a site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
 
-
- ## Languages Used
+## Languages Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
@@ -275,6 +273,7 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 
 ## Data Structure
 
+* Entity Relationship Diagram (ERD) created using [draw.io](https://app.diagrams.net/)
 ![image](https://user-images.githubusercontent.com/95102264/200966065-c1c8ce85-2647-462c-b84d-9f48e7bdac47.png)
 
 ## Credits
@@ -340,4 +339,9 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 
 ### Future features
 
-* With further development         
+* With further time and development additional features to the site would include:<br>
+More products for sale, especially home gym equipment and eventually own brand clothing.<br>
+A site blog for members to see the fitness progressions of others and to add their own.<br>
+A reviews section where members/customers can add their own comments about products and their uses.<br>
+A newsletter subscription where customers can be kept up to date with news and offers.
+
