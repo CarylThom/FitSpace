@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpR
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
+from django.core.mail import send_mail
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
@@ -141,22 +142,32 @@ def checkout_success(request, order_number):
     """
     Handle successful checkouts
     """
-    order_form = OrderForm(request.POST or None)
-    if request.method == "POST":
-
-        if order_form.is_valid():
-            print("Form is valid")
-            order_form.save()
-            send_mail(
-                "Thank you for your message",
-                request.POST.get("message"),
-                settings.DEFAULT_FROM_EMAIL,
-                [request.POST.get("email")],
-                fail_silently=False,
-            )
-
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
+
+    # order_form = OrderForm(request.POST or None)
+    # if request.method == "POST":
+
+    #     if order_form.is_valid():
+    #         print("Form is valid")
+    #         order_form.save()
+    #         send_mail(
+    #             'Thank you for your order',
+    #             request.POST.get('message'),
+    #             settings.DEFAULT_FROM_EMAIL,
+    #             [request.POST.get('email')],
+    #             fail_silently=False,
+    #         )
+    #         messages.success(
+    #             request,
+    #             'Thank you for your order. '
+    #             )
+    #         return redirect('checkout')
+    # context = {
+    #     'form': order_form,
+    # }
+
+    # return render(request, order_form)
 
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
