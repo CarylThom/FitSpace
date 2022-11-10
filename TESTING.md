@@ -6,7 +6,11 @@
 
 ### CSS3 
 
-* W3C CSS Validator report: Using [W3C CSS Validator](http://www.w3.org/)
+* Checkout.css has no errors. <br>
+![image](https://user-images.githubusercontent.com/95102264/201081802-d9a82003-a816-4478-bc99-640d591de7d9.png)
+
+* Static.css has warnings that do not affect the code. <br>
+![image](https://user-images.githubusercontent.com/95102264/201081663-98a78196-7a0d-4457-bbed-1c626ffd0333.png)
 
 ### Javascript (ES6) 
 
@@ -19,7 +23,7 @@
 ### Stripe Payment
 
 * All Stripe payments are being processed correctly<br>
-![image](https://user-images.githubusercontent.com/95102264/201079102-39aab61e-8dba-4eef-b975-eb9bb953958f.png)
+![image](https://user-images.githubusercontent.com/95102264/201079927-01a46deb-e5ca-4c4b-a9e4-c1b8ff97d8b4.png)
 
 ## Lighthouse test report
 
