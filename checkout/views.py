@@ -13,6 +13,7 @@ from bag.contexts import bag_contents
 import stripe
 import json
 
+
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -28,6 +29,7 @@ def cache_checkout_data(request):
         messages.error(request, 'Sorry, your payment cannot be \
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
+
 
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
@@ -134,10 +136,25 @@ def checkout(request):
 
     return render(request, template, context)
 
+
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
     """
+    order_form = OrderForm(request.POST or None)
+    if request.method == "POST":
+
+        if order_form.is_valid():
+            print("Form is valid")
+            order_form.save()
+            send_mail(
+                "Thank you for your message",
+                request.POST.get("message"),
+                settings.DEFAULT_FROM_EMAIL,
+                [request.POST.get("email")],
+                fail_silently=False,
+            )
+
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
