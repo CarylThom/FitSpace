@@ -182,7 +182,7 @@ def checkout_success(request, order_number):
             'Thanks for shopping at FitSpace'
         ),
         settings.DEFAULT_FROM_EMAIL,
-        ['order.email'],
+        [order.email],
         fail_silently=False,
     )
 
