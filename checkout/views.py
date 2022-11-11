@@ -111,13 +111,13 @@ def checkout(request):
                 order_form = OrderForm(initial={
                     'full_name': profile.user.get_full_name(),
                     'email': profile.user.email,
-                    'phone_number': profile.default_phone_number,
-                    'country': profile.default_country,
-                    'postcode': profile.default_postcode,
-                    'town_or_city': profile.default_town_or_city,
                     'street_address1': profile.default_street_address1,
                     'street_address2': profile.default_street_address2,
+                    'town_or_city': profile.default_town_or_city,
                     'county': profile.default_county,
+                    'country': profile.default_country,
+                    'postcode': profile.default_postcode,
+                    'phone_number': profile.default_phone_number,
                 })
             except UserProfile.DoesNotExist:
                 order_form = OrderForm()
@@ -155,12 +155,12 @@ def checkout_success(request, order_number):
         if save_info:
             profile_data = {
                 'default_phone_number': order.phone_number,
-                'default_country': order.country,
-                'default_postcode': order.postcode,
-                'default_town_or_city': order.town_or_city,
                 'default_street_address1': order.street_address1,
                 'default_street_address2': order.street_address2,
+                'default_town_or_city': order.town_or_city,
                 'default_county': order.county,
+                'default_postcode': order.postcode,
+                'default_country': order.country,
             }
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():
@@ -171,15 +171,20 @@ def checkout_success(request, order_number):
         email will be sent to {order.email}.')
 
     send_mail(
-        'Your FitSpace Order Confirmation',
+        'Your FitSpace confirmation email',
         (
-            'Thank you for your purchase from FitSpace!\n'
+            'Thank you for shopping with us at FitSpace!\n'
             'Your order details are as follows:\n\n'
             f'Order Number: {order_number}\n'
-            f'Grand Total: {order.grand_total}\n\n'
+            f'Order Date: {order.date}\n'
+            f'Order Total: £{order.order_total}\n'
+            f'Delivery: £{order.delivery_cost}\n'
+            f'Grand Total: £{order.grand_total}\n'
+            f'Your order will be delivered to {order.street_address1}, \
+            {order.town_or_city}, {order.county}, {order.postcode}.\n\n'
             'If you have any questions, please contact us at '
             f'{settings.DEFAULT_FROM_EMAIL}.\n\n'
-            'Thanks for shopping at FitSpace'
+            'Thanks for your support'
         ),
         settings.DEFAULT_FROM_EMAIL,
         [order.email],
