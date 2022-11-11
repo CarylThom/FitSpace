@@ -343,5 +343,6 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 More products for sale, especially home gym equipment and eventually own brand clothing.<br>
 A site blog for members to see the fitness progressions of others and to add their own.<br>
 A reviews section where members/customers can add their own comments about products and their uses.<br>
-A newsletter subscription where customers can be kept up to date with news and offers.
+A newsletter subscription where customers can be kept up to date with news and offers.<br>
+Create personal bespoke designed email account for FitSpace. 
 

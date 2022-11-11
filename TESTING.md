@@ -2,15 +2,20 @@
 
 ### HTML5 
 
-* W3 Markup Vlidation report: Using [W3C Markup Validator](https://validator.w3.org/)
+* W3 Markup Validation report: Using [W3C Markup Validator](https://validator.w3.org/)<br>
+![image](https://user-images.githubusercontent.com/95102264/201435675-4fbbdf42-c2f9-4922-8377-d4077d32f20e.png)
 
 ### CSS3 
+*CSS Validation report: Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br>
 
 * Checkout.css has no errors. <br>
 ![image](https://user-images.githubusercontent.com/95102264/201081802-d9a82003-a816-4478-bc99-640d591de7d9.png)
 
 * Static.css has warnings that do not affect the code. <br>
 ![image](https://user-images.githubusercontent.com/95102264/201081663-98a78196-7a0d-4457-bbed-1c626ffd0333.png)
+
+* Profile.css has no errors. <br>
+![image](https://user-images.githubusercontent.com/95102264/201437098-7be56b9e-0d28-469f-9d64-e4c2a23e1a4e.png)
 
 ### Javascript (ES6) 
 
@@ -55,6 +60,7 @@ Users can then log out of their account/profile <br>
 ![image](https://user-images.githubusercontent.com/95102264/201415640-83ab3561-34c6-451c-8b07-b7494757c3d9.png)<br>
 
 Confirmation email is also sent to customer <br>
+![image](https://user-images.githubusercontent.com/95102264/201422817-a9655999-de3f-490d-88c7-5308939b9482.png)
 
 * **Contact**
 * Email sent by customers show in the terminal<br>
