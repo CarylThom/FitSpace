@@ -339,7 +339,7 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 
 ### Future features
 
-* With further time and development additional features to the site would include:<br>
+* With further knowledge, time and development the additional features that would idealy be added to the site include:<br>
 More products for sale, especially home gym equipment and eventually own brand clothing.<br>
 A site blog for members to see the fitness progressions of others and to add their own.<br>
 A reviews section where members/customers can add their own comments about products and their uses.<br>

@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -86,14 +88,16 @@ def checkout(request):
                     return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success',
+                            args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment")
+            messages.error(request, "There's nothing in your bag \
+             at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
@@ -181,7 +185,8 @@ def checkout_success(request, order_number):
             f'Delivery: £{order.delivery_cost}\n'
             f'Grand Total: £{order.grand_total}\n'
             f'Your order will be delivered to {order.street_address1}, \
-            {order.town_or_city}, {order.county}, {order.postcode}.\n\n'
+            {order.street_address2}, {order.town_or_city}, {order.county}, \
+            {order.postcode}.\n\n'
             'If you have any questions, please contact us at '
             f'{settings.DEFAULT_FROM_EMAIL}.\n\n'
             'Thanks for your support'
