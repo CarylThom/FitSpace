@@ -182,7 +182,8 @@ def checkout_success(request, order_number):
             'Thanks for shopping at FitSpace'
         ),
         settings.DEFAULT_FROM_EMAIL,
-        [request.POST.get('email')],
+        ['email list'],
+        fail_silently=False,
     )
 
     if 'bag' in request.session:
