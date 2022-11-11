@@ -48,6 +48,22 @@ Users can then log out of their account/profile <br>
 * Information gathered from the contact form is stored within the database <br>
 ![image](https://user-images.githubusercontent.com/95102264/201218298-7e504117-d94d-4ffb-8b8c-319a47e69f96.png)
 
+### Email Confirmation
+
+* **Checkout** 
+* Confirmation of payment email is shown in the terminal<br>
+![image](https://user-images.githubusercontent.com/95102264/201415640-83ab3561-34c6-451c-8b07-b7494757c3d9.png)<br>
+
+Confirmation email is also sent to customer <br>
+
+* **Contact**
+* Email sent by customers show in the terminal<br>
+![image](https://user-images.githubusercontent.com/95102264/201416497-71e99d41-68e8-4d7f-9b76-8f56e1f34f37.png)<br>
+
+Email sent by customers are sent to site email address<br>
+![image](https://user-images.githubusercontent.com/95102264/201417935-a260b501-731f-4802-a55d-224e206d902e.png)
+
+
 
 ## Lighthouse test report
 
