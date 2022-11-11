@@ -194,6 +194,21 @@ def checkout_success(request, order_number):
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
 
+    send_mail(
+        'Your FitSpace Order Confirmation',
+        (
+            'Thank you for your purchase from FitSpace!\n'
+            'Your order details are as follows:\n\n'
+            f'Order Number: {order_number}\n'
+            f'Grand Total: {order.grand_total}\n\n'
+            'If you have any questions, please contact us at '
+            f'{settings.DEFAULT_FROM_EMAIL}.\n\n'
+            'Thanks for shopping at FitSpace'
+        ),
+        settings.DEFAULT_FROM_EMAIL,
+        [request.POST.get('email')],
+    )
+
     if 'bag' in request.session:
         del request.session['bag']
 
