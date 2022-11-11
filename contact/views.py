@@ -16,7 +16,7 @@ def contact(request):
             print("Form is valid")
             contact_form.save()
             send_mail(
-                'Thank you for your message',
+                'Thank you for contacting FitSpace',
                 request.POST.get('message'),
                 settings.DEFAULT_FROM_EMAIL,
                 [request.POST.get('email')],
@@ -24,8 +24,8 @@ def contact(request):
             )
             messages.success(
                 request,
-                'Thank you for your message, '
-                'we aim to get back to you within 48 hours.'
+                'Thank you for your message. '
+                'We aim to get back to you within 48 hours.'
                 )
             return redirect('contact')
     context = {

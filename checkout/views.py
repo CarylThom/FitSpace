@@ -145,30 +145,6 @@ def checkout_success(request, order_number):
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
-    # order_form = OrderForm(request.POST or None)
-    # if request.method == "POST":
-
-    #     if order_form.is_valid():
-    #         print("Form is valid")
-    #         order_form.save()
-    #         send_mail(
-    #             'Thank you for your order',
-    #             request.POST.get('message'),
-    #             settings.DEFAULT_FROM_EMAIL,
-    #             [request.POST.get('email')],
-    #             fail_silently=False,
-    #         )
-    #         messages.success(
-    #             request,
-    #             'Thank you for your order. '
-    #             )
-    #         return redirect('checkout')
-    # context = {
-    #     'form': order_form,
-    # }
-
-    # return render(request, order_form)
-
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
         # Attach the user's profile to the order
