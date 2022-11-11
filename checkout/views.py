@@ -175,14 +175,14 @@ def checkout_success(request, order_number):
         (
             'Thank you for your purchase from FitSpace!\n'
             'Your order details are as follows:\n\n'
-            f'Order Number: {order.order_number}\n'
+            f'Order Number: {order_number}\n'
             f'Grand Total: {order.grand_total}\n\n'
             'If you have any questions, please contact us at '
             f'{settings.DEFAULT_FROM_EMAIL}.\n\n'
             'Thanks for shopping at FitSpace'
         ),
         settings.DEFAULT_FROM_EMAIL,
-        ['email list'],
+        ['order.email'],
         fail_silently=False,
     )
 
