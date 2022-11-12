@@ -38,11 +38,11 @@ Example <br>
 * PEP8 Python Validation report: [pep8ish](https://pep8ish.herokuapp.com/)<br>
 Almost all Python files have no errors<br>
 ![pythonTest](https://user-images.githubusercontent.com/95102264/201492664-fb130a63-f954-4044-86b9-fb6f3ad1f7d6.png)<br>
-Although, Checkout views.py still has 1 error <br>
+Although, due to my currently limited knowledge and/or time restrictions, Checkout views.py still has 1 error <br>
 ![pythonError1](https://user-images.githubusercontent.com/95102264/201492831-1a4e2e18-05a6-4b2c-b47b-2a5c7f8c3b59.png)<br>
-Checkout models.py still has 2 errors <br>
+As well as, Checkout models.py still with 2 errors <br>
 ![pythonError2](https://user-images.githubusercontent.com/95102264/201492895-7ea1eb8c-9c8c-4373-9d22-ced84453c895.png)<br>
-And, Product views.py has 2 errors <br>
+And, Product views.py with 2 errors <br>
 ![pythonError3](https://user-images.githubusercontent.com/95102264/201492987-80f7467e-9e2f-4576-b8e9-92f05c2c5e7f.png)
 
 
