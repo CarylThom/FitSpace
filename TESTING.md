@@ -1,9 +1,14 @@
-## Testing for FitSpace project.
+## Testing Report for FitSpace Project.
 
 ### HTML5 
 
 * W3 Markup Validation report: Using [W3C Markup Validator](https://validator.w3.org/)<br>
-![image](https://user-images.githubusercontent.com/95102264/201435675-4fbbdf42-c2f9-4922-8377-d4077d32f20e.png)
+Almost all the HTML code passed with no errors - <br>
+![htmlPass](https://user-images.githubusercontent.com/95102264/201435675-4fbbdf42-c2f9-4922-8377-d4077d32f20e.png)<br>
+**Please Note** - Warnings and errors were given on some pages due to template logic (or templates used form the Boutique Ado project). These were sections of code that I was unable to change due to limited knowledge or time restrictions, or could not change because of the negative effect it had on the functionality of the site.<br>
+
+Example<br>
+![htmlError](https://user-images.githubusercontent.com/95102264/201492350-e81c45c8-3fe4-4f54-8c78-b9f96abd36e5.png)
 
 ### CSS3 
 *CSS Validation report: Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br>
@@ -15,15 +20,33 @@
 ![image](https://user-images.githubusercontent.com/95102264/201081663-98a78196-7a0d-4457-bbed-1c626ffd0333.png)
 
 * Profile.css has no errors. <br>
-![image](https://user-images.githubusercontent.com/95102264/201437098-7be56b9e-0d28-469f-9d64-e4c2a23e1a4e.png)
+![image](https://user-images.githubusercontent.com/95102264/201437098-7be56b9e-0d28-469f-9d64-e4c2a23e1a4e.png)<br>
+
+**Please Note** - Warnings and errors were given on some pages due to template logic (or templates used form the Boutique Ado project). These were sections of code that I was unable to change due to limited knowledge or time restrictions, or could not change because of the negative effect it had on the functionality of the site.<br>
 
 ### Javascript (ES6) 
 
-* Javascript validation report: Using [beautifytools](https://beautifytools.com/javascript-validator.php)
+* Javascript validation report: Using [beautifytools](https://beautifytools.com/javascript-validator.php)<br>
+Javascript tests came out with no errors only warnings that $ was not defined.<br>
+Example <br>
+![jsError](https://user-images.githubusercontent.com/95102264/201492529-d2b4144f-64ce-4271-b8d6-1ade099e636b.png)<br>
+
+**Please Note** - Warnings and errors were given on some pages due to template logic (or templates used form the Boutique Ado project). These were sections of code that I was unable to change due to limited knowledge or time restrictions, or could not change because of the negative effect it had on the functionality of the site.<br>
 
 ### Python3 
 
-* PEP8 Python Validation report: Using using Flask8
+* PEP8 Python Validation report: [pep8ish](https://pep8ish.herokuapp.com/)<br>
+Almost all Python files have no errors<br>
+![pythonTest](https://user-images.githubusercontent.com/95102264/201492664-fb130a63-f954-4044-86b9-fb6f3ad1f7d6.png)<br>
+Although, Checkout views.py still has 1 error <br>
+![pythonError1](https://user-images.githubusercontent.com/95102264/201492831-1a4e2e18-05a6-4b2c-b47b-2a5c7f8c3b59.png)<br>
+Checkout models.py still has 2 errors <br>
+![pythonError2](https://user-images.githubusercontent.com/95102264/201492895-7ea1eb8c-9c8c-4373-9d22-ced84453c895.png)<br>
+And, Product views.py has 2 errors <br>
+![pythonError3](https://user-images.githubusercontent.com/95102264/201492987-80f7467e-9e2f-4576-b8e9-92f05c2c5e7f.png)
+
+
+**Please Note** - Warnings and errors were given on some pages due to template logic (or templates used form the Boutique Ado project). These were sections of code that I was unable to change due to limited knowledge or time restrictions, or could not change because of the negative effect it had on the functionality of the site.<br>
 
 ### Stripe Payment
 
