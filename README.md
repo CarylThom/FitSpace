@@ -134,7 +134,8 @@ Or full<br>
 There are also a set of alerts that will inform the user of their actions around the site<br>
 ![Alert1](https://user-images.githubusercontent.com/95102264/201481997-4e108b5e-684e-4e71-bb03-ed9aa54a83d8.png)<br>
 ![Alert2](https://user-images.githubusercontent.com/95102264/201482058-664d35c1-f349-4bb9-9df0-97e39e76b354.png)<br>
-![Alert3](https://user-images.githubusercontent.com/95102264/201482116-a98bd4eb-5fe4-40ca-af59-53ba95e06ecb.png)
+![Alert3](https://user-images.githubusercontent.com/95102264/201482116-a98bd4eb-5fe4-40ca-af59-53ba95e06ecb.png)<br>
+![Alert4](https://user-images.githubusercontent.com/95102264/201494741-0a8acd8a-c0a9-476b-943a-f49e3390377e.png)
 * Accessible only to signed- in/registered users on the Top Navbar:<br />
 **My Account:** > **My Profile:** To navigate to the session user's profile page.<br />
 **Logout:** To logout of the site.
