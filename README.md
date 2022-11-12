@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/95102264/200198834-405e318f-cf53-49e3-8d7b-3615f2b73c6b.png)
+![MainImage](https://user-images.githubusercontent.com/95102264/200198834-405e318f-cf53-49e3-8d7b-3615f2b73c6b.png)
 
 # Title
 
@@ -7,63 +7,79 @@
 Milestone Project 4 Full Stack Frameworks with Django
 ## Description
 
-* FitSpace is a site dedicated to the fitness and health of women. Users can register to join the community set up around the site. It is an e-commerce platform  offering products for users to purchase to help aid their fitness, recovery and nutriton. 
+* FitSpace is a site dedicated to the fitness and health of women. Users can register to join the community set up around the site. It is an e-commerce platform offering products for users to purchase to help aid their fitness, recovery and nutriton. 
 
  ## User Experience (UX)
 
 ### First Time Visitor Goals
 
-* **As a First Time Visitor** - I would like to visit a site that is easy to navigate = The site landing page holds all navigation options such as links to all locations and a search bar
+* **As a First Time Visitor** - " I would like to visit a site that is easy to navigate " = The site landing page holds all navigation options such as links to all locations and a search bar
 
-* **As a First Time Visitor** - I would like to visit this site to discover what's available for my training needs = The user can browse all the products available or sort them by price, categoy and rating
+* **As a First Time Visitor** - " I would like to visit this site to discover what's available for my training needs " = The user can browse all the products available or sort them by price, categoy and rating
 
-* **As a First Time Visitor** – I would like to access guidance on how to manage my fitness/health = The site offers specially constructed fitness packages for all the users needs.
+* **As a First Time Visitor** – " I would like to access guidance on how to manage my fitness/health " = The site offers specially constructed fitness packages for all the users needs.
 
 ### Returning/Frequent Visitor Goals
 
-* **As a Returning Visitor** – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links to keep users connected by sharing their own ideas, stories and images.  
+* **As a Returning Visitor** – " I will enjoy becoming part of the like-minded community set up around this site " = There are Social media links to keep users connected by sharing their own ideas, stories and images.  
 
-* **As a Returning Visitor** - I will return to the site to purchase more items = Being a registered user will allow for special offers and discounts on items. 
+* **As a Returning Visitor** -  " I will return to the site to purchase more items " = Being a registered user will allow for special offers and discounts on items. 
 
-* **As a Returning Visitor** – I will continue to gain fitness/health guidance from the site = New products and specialist help will be added regularly. 
+* **As a Returning Visitor** – " I will continue to gain fitness/health guidance from the site " = New products and specialist help will be added to the site regularly. 
 
 
 ## Features
 
 Features of the FitSpace website include:
 
-* **Register**: The site visitor can add their details to open an account on the site.
-* **LogIn**: The site visitor can login to the site if they are an existing user.<br>
-![image](https://user-images.githubusercontent.com/95102264/200604140-2498e867-f057-4b05-8724-dba16b511812.png)<br>
-* **Contact**: Any User can contact the site owner by email.<br>
-![image](https://user-images.githubusercontent.com/95102264/200607528-29b44b79-9ff1-4fd1-9280-0363d6494ed7.png)<br>
-* **Logout**: Alows users to log out of their account.
-* **My Profile**: Registered users can view their profile/shopping history.<br>
-![image](https://user-images.githubusercontent.com/95102264/200606500-ecbde75c-ce20-46c2-8396-df31660f21ea.png)<br>
+* **Log In & Register**: The site visitor can add their details to open an account or sign in to their existing account on the site from the My Account tab.<br>
+![RegisterSignIn](https://user-images.githubusercontent.com/95102264/200604140-2498e867-f057-4b05-8724-dba16b511812.png)<br>
+**Register**<br>
+![RegisterForm](https://user-images.githubusercontent.com/95102264/201480161-020f526b-976f-44f3-8b7f-99130afc1cfd.png)<br>
+**LogIn**
+<br>
+![SignInForm](https://user-images.githubusercontent.com/95102264/201480213-e5caeda9-9ebc-43ff-9bae-996061ea47ab.png)
 
-* **Sort**: Any user can sort the products by price, name or category.<br>
-![image](https://user-images.githubusercontent.com/95102264/200605763-65901889-d910-419e-afaf-47ec01d1ac75.png)<br>
+* **Contact**: Any user can contact the site owner from the contact tab.<br>
+![ContactTab](https://user-images.githubusercontent.com/95102264/200607528-29b44b79-9ff1-4fd1-9280-0363d6494ed7.png)<br>
+ And then filling in the contact form or viewing the address and phone number<br>
+![ContactForm](https://user-images.githubusercontent.com/95102264/201478741-4db58d13-c617-4e28-b007-3eeacb567a24.png)
+* **Logout**: Allows users to log out of their account.<br>
+![LogOut](https://user-images.githubusercontent.com/95102264/201480444-df827031-222b-4aae-93dc-a117dfd1ddd7.png)
+
+* **My Profile**: Registered users can view their profile/shopping history.<br>
+![ProfileTab](https://user-images.githubusercontent.com/95102264/200606500-ecbde75c-ce20-46c2-8396-df31660f21ea.png)<br>
+![ProfilePage](https://user-images.githubusercontent.com/95102264/201480591-3c769a89-2ab7-46a1-9d8c-808f3cee2f51.png)
+
+* **Sort**: Any user can sort the products by price, name or rating.<br>
+![SortBar](https://user-images.githubusercontent.com/95102264/200605763-65901889-d910-419e-afaf-47ec01d1ac75.png)<br>
+![SortBarOpen](https://user-images.githubusercontent.com/95102264/201478586-b0d39d17-fde0-4a23-a3d3-14d73463205e.png)
 * **Search**: Any user can search the site using keywords. <br>
-![image](https://user-images.githubusercontent.com/95102264/200603437-74525397-7822-4597-85b7-cdfddd96fa1e.png)<br>
+![SearchBar](https://user-images.githubusercontent.com/95102264/200603437-74525397-7822-4597-85b7-cdfddd96fa1e.png)<br>
 * **Checkout**: Any user can make a secure purchase using Stripe.<br>
-![image](https://user-images.githubusercontent.com/95102264/200607935-b73ccc14-6bba-4a7a-94d3-27f1315fc6ca.png)<br>
+![CheckoutBtn](https://user-images.githubusercontent.com/95102264/200607935-b73ccc14-6bba-4a7a-94d3-27f1315fc6ca.png)<br>
 * **Social Media**: Any user can access FitSpace social media links.<br>
-![image](https://user-images.githubusercontent.com/95102264/200605391-4f8ee83d-482a-4f3d-b953-b9fa3280e63f.png)<br>
-* **Admin**: Admin/Superusers can access all areas of the site.<br>
-![image](https://user-images.githubusercontent.com/95102264/200607213-a1b7d1d8-4763-4755-8331-3b8342acf65f.png)<br>
+![Social](https://user-images.githubusercontent.com/95102264/200605391-4f8ee83d-482a-4f3d-b953-b9fa3280e63f.png)<br>
+* **Admin**: Admin/Superusers can access the Product Admin tab.<br>
+![ProductAdminTab](https://user-images.githubusercontent.com/95102264/200607213-a1b7d1d8-4763-4755-8331-3b8342acf65f.png)<br>
+![ProductAdmin](https://user-images.githubusercontent.com/95102264/201480759-d819f8c2-1b41-4225-9b6f-5c493ed76bfb.png)
 
 ### CRUD Functionality
 
 The FitSpace website has been built around the principles of CRUD (Create, Read, Update, Delete). All of these actions can be implemented on the site:
 
-* **Add Product:** The superuser (Admin) can add products to the database.<br>
-![image](https://user-images.githubusercontent.com/95102264/200648019-3cb62a86-ffbd-436e-975a-4080380f38f4.png)<br>
-* **View Products:** Any user can view the offered items and the superuser (Admin) can also view them within the database.<br>
-![image](https://user-images.githubusercontent.com/95102264/200648177-f5d9dab0-670c-4cd4-b765-dd4193415daa.png)<br>
+* **Add Product:** The superuser (Admin) can add products to the database, and through the Product Admin tab as shown above<br>
+![AddData](https://user-images.githubusercontent.com/95102264/200648019-3cb62a86-ffbd-436e-975a-4080380f38f4.png)<br>
+* **View Products:** Any user can view the offered items. <br>
+![Products](https://user-images.githubusercontent.com/95102264/201480977-7acf634e-72bb-4999-be56-57a4eaf975f3.png)
+And the superuser (Admin) can also view them within the database.<br>
+![ProductsData](https://user-images.githubusercontent.com/95102264/200648177-f5d9dab0-670c-4cd4-b765-dd4193415daa.png)<br>
 * **Edit Product:** The superuser (Admin) can edit products that are already in the database.<br>
-![image](https://user-images.githubusercontent.com/95102264/200648559-1083da32-ea4c-4b39-b764-074cf32a6a5e.png)<br>
-* **Delete Product:** The superuser (Admin) can delete products that are already in the database.<br>
-![image](https://user-images.githubusercontent.com/95102264/200648913-6c9c20b9-8fd5-4a2d-b3ad-da4ce4b43aaa.png)
+![EditProduct](https://user-images.githubusercontent.com/95102264/200648559-1083da32-ea4c-4b39-b764-074cf32a6a5e.png)<br>
+By clicking on the edit link below the item <br>
+![EditLink](https://user-images.githubusercontent.com/95102264/201481089-0f86864f-bbed-45da-8a8d-d40da5abb0c1.png)
+* **Delete Product:** The superuser (Admin) can delete products that are already in the database by clicking on the delete button below the item.<br>
+![DeleteProduct](https://user-images.githubusercontent.com/95102264/200648913-6c9c20b9-8fd5-4a2d-b3ad-da4ce4b43aaa.png)
 
 
 ## Design
@@ -71,41 +87,54 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 ### Top Navbar:
 
 * **Search box:** Search the site using key words.<br>
+![SearchHoodie](https://user-images.githubusercontent.com/95102264/201481343-c4fe6ac7-406a-4c5b-bfde-226faa00944f.png)<br>
+![ResultHoodie](https://user-images.githubusercontent.com/95102264/201481400-dc316426-8033-4ac2-a4a8-55b789454b15.png)
 
-* **My Account:** dropdown menu with the following options:<br />
+* **My Account:** is a dropdown menu with the following options:<br />
 	**Login:** Login for existing users.<br />
     **Register:** Register as a user.<br>
     ![image](https://user-images.githubusercontent.com/95102264/200604140-2498e867-f057-4b05-8724-dba16b511812.png)
 
 * **Shopping Bag Icon:** Click here to navigate to the shopping bag page.<br>
-![image](https://user-images.githubusercontent.com/95102264/200649428-0868463f-8f8b-4c36-9f32-4491b1ddfc92.png)
+![ShoppingBag](https://user-images.githubusercontent.com/95102264/200649428-0868463f-8f8b-4c36-9f32-4491b1ddfc92.png)<br>
+When bag is empty <br>
+![BagEmpty](https://user-images.githubusercontent.com/95102264/201481484-797b4d9a-812b-4fa9-b201-f85631be0c9b.png)<br>
+Or full<br>
+![BagFull](https://user-images.githubusercontent.com/95102264/201481573-074a4f73-79c8-4a4c-a17e-f63687d09c5d.png)
 ### Main Navbar:
 
-*  **FitSpace** dropdown menu with the following options:<br />
+*  **FitSpace** is a dropdown menu with the following options:<br />
     **About Us:** A short biography of the company.<br />
     **Contact Us:** See contact details or contact the business via a contact form.<br />
     **Social media links:** links to the homepages of  Facebook, Twitter, Instagram, TikTok & YouTube.<br>
-    ![image](https://user-images.githubusercontent.com/95102264/200649636-cd3efbdc-d17d-4147-b6e6-70d3376af949.png)
+    ![FSdropdown](https://user-images.githubusercontent.com/95102264/200649636-cd3efbdc-d17d-4147-b6e6-70d3376af949.png)
 
-*  **Fitness Products** dropdown menu with the following options:<br />
+*  **Fitness Products** is a dropdown menu with the following options:<br />
     **By Price:** Display items by price.<br />
     **By Ratings:** Display items by ratings.<br />
     **By Categories:** Display items by categories.<br />
     **All Products:** Display all products.<br>
-    ![image](https://user-images.githubusercontent.com/95102264/200649822-3ce81144-805f-43a4-8da1-8a4e6a60cd47.png)
+    ![FPdropdown](https://user-images.githubusercontent.com/95102264/200649822-3ce81144-805f-43a4-8da1-8a4e6a60cd47.png)<br>
+    Product details can then be seen when the item is choosen <br>
+    ![ProductDetail](https://user-images.githubusercontent.com/95102264/201481727-979eec5a-a3ea-48b0-b9dd-e7e44f76301f.png)
 
-*  **Your Fitness** dropdown menu with the following options:<br />
+*  **Your Fitness** is a dropdown menu with the following options:<br />
     **Clothing:** Show the selection of clothing on offer.<br />
     **Equipment:** Show the selection of fitness equipment on offer.<br />
     **Nutrition:** Show the selection nutritional supplements on offer.<br>
-    ![image](https://user-images.githubusercontent.com/95102264/200649997-ddfbccc5-d788-469c-b765-32b6e0617808.png)
+    ![YFdropdown](https://user-images.githubusercontent.com/95102264/200649997-ddfbccc5-d788-469c-b765-32b6e0617808.png)
 
-* **Fitness Plans** dropdown menu with the following options:<br />
+* **Fitness Plans** is a dropdown menu with the following options:<br />
     **Fitness:** Show all products related to fitness.<br />
     **Nutrition:** Show all products related to nutrition.<br />
     **Recover:** Show all products on recovery and self-care.<br>
-    ![image](https://user-images.githubusercontent.com/95102264/200650147-6cf525d8-0389-4ed5-9fc0-617172224d0e.png)
+    ![FPlandropdown](https://user-images.githubusercontent.com/95102264/200650147-6cf525d8-0389-4ed5-9fc0-617172224d0e.png)
 
+* **Alerts**
+There are also a set of alerts that will inform the user of their actions around the site<br>
+![Alert1](https://user-images.githubusercontent.com/95102264/201481997-4e108b5e-684e-4e71-bb03-ed9aa54a83d8.png)<br>
+![Alert2](https://user-images.githubusercontent.com/95102264/201482058-664d35c1-f349-4bb9-9df0-97e39e76b354.png)<br>
+![Alert3](https://user-images.githubusercontent.com/95102264/201482116-a98bd4eb-5fe4-40ca-af59-53ba95e06ecb.png)
 * Accessible only to signed- in/registered users on the Top Navbar:<br />
 **My Account:** > **My Profile:** To navigate to the session user's profile page.<br />
 **Logout:** To logout of the site.
@@ -139,19 +168,19 @@ The FitSpace website has been built around the principles of CRUD (Create, Read,
 
   ### Typography
 
-* 'Mulish' <br>![image](https://user-images.githubusercontent.com/95102264/200651279-e142e3cd-52b5-40ef-989d-425e172ada05.png)<br>
+* 'Mulish' <br>![Mulish](https://user-images.githubusercontent.com/95102264/200651279-e142e3cd-52b5-40ef-989d-425e172ada05.png)<br>
 (Designed by Vernon Adams, Cyreal, Jacques Le Bailly) was chosen as the main font of the site with 'sans-serif' as the fallback font.
-* 'Kalam'<br>![image](https://user-images.githubusercontent.com/95102264/200651924-3ba3d621-85e9-49fa-9c4f-04164acce70f.png)<br>
+* 'Kalam'<br>![Kalam](https://user-images.githubusercontent.com/95102264/200651924-3ba3d621-85e9-49fa-9c4f-04164acce70f.png)<br>
  (Designed by Indian Type Foundry) was used in the design of the FitSpace logo'.
 
 ### Imagery 
 
 ## Wireframes
-![image](https://user-images.githubusercontent.com/95102264/194755021-c2f90f47-3108-4cf4-af64-dee249d36c96.png)
+![WireframeMain](https://user-images.githubusercontent.com/95102264/194755021-c2f90f47-3108-4cf4-af64-dee249d36c96.png)
 
-![image](https://user-images.githubusercontent.com/95102264/194755115-4da331c7-2f5f-4a91-a9a4-c869fc601732.png)
+![WireframeProducts](https://user-images.githubusercontent.com/95102264/194755115-4da331c7-2f5f-4a91-a9a4-c869fc601732.png)
 
-* Although the final appearance of the site differs from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create a site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
+* Although the final appearance of the site differs greatly from the initial wireframe idea (above), the concept of the site remains the same. The wireframe design shows the plan to create a site dedicated to fitness and health specifically of women (although site is obviously available to all). The intention is for the site to be aimed at those serious about changing their lifestyle and addressing their health issues - and this will hopefully be translated within the appearance of the site. The landing page will have links to items or services available to purchase. There will be a search bar for easy navigation and there will be links to social media where users can interact and gain support from likeminded users. 
 
 ## Languages Used
 
@@ -280,7 +309,7 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 ### Acknowledgements
 
 * Code Institute Boutique Ado Project: Much of this project was copied and adapted from the Code Institute 'Boutique Ado' project.
-* My mentor Tim Nelson, for his great help, guidance and patience throughout. 
+* My mentor Tim Nelson, for his help, guidance and patience throughout. 
 * Tutors and student support at Code Institute.
 * Reviewing/revisiting other lessons from the relevant sections of the course via Code Institute. 
 * Code Institute Slack Channel, the tutors, staff and fellow students for help answering my many questions. 
@@ -328,21 +357,24 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 
 
 * Main background image = [By Senivpetro on Freepik](https://www.freepik.com/free-photo/young-woman-boxer-training-gym_6255898.htm#page=2&query=fitness&position=0&from_view=search&track=sph).<br>
-![image](https://user-images.githubusercontent.com/95102264/200653593-5cb5f680-5e19-4c01-a8b2-63fa6063849c.png)<br>
+![BGimage](https://user-images.githubusercontent.com/95102264/200653593-5cb5f680-5e19-4c01-a8b2-63fa6063849c.png)<br>
 
 * About us image = [Created by Freepik on Freepik](https://www.freepik.com/free-photo/medium-shot-smiley-women-running-together_20081880.htm#query=healthy%20women%20outside&position=45&from_view=search&track=sph).<br>
-![image](https://user-images.githubusercontent.com/95102264/200654289-741327b3-b507-49f6-809e-d48614d784be.png)<br>
+![AUimage](https://user-images.githubusercontent.com/95102264/200654289-741327b3-b507-49f6-809e-d48614d784be.png)<br>
 
 * Favicon & Site logo = [Created by monkik at Flaticon](https://www.flaticon.com/free-icon/lotus_2647603?term=yoga&page=1&position=23&page=1&position=23&related_id=2647603&origin=search). <br>
-![image](https://user-images.githubusercontent.com/95102264/200654714-dfa7abaf-ff33-430a-9a2d-a41d36903d94.png) 
+![Favicon](https://user-images.githubusercontent.com/95102264/200654714-dfa7abaf-ff33-430a-9a2d-a41d36903d94.png) 
 
 
 ### Future features
 
-* With further knowledge, time and development the additional features that would idealy be added to the site include:<br>
+* With further time, development and knowledge of the code, the additional features that would idealy be added to the site include:<br>
 More products for sale, especially home gym equipment and eventually own brand clothing.<br>
-A site blog for members to see the fitness progressions of others and to add their own.<br>
+A site blog where admin can add inspirational stories and for members to see the fitness progressions of others and to add their own.<br>
 A reviews section where members/customers can add their own comments about products and their uses.<br>
-A newsletter subscription where customers can be kept up to date with news and offers.<br>
-Create personal bespoke designed email account for FitSpace. 
+A newsletter subscription where customers can be kept up to date with news and special offers.<br>
+Create personal bespoke designed email account for FitSpace. <br>
+Create a barrier against accidental deletion of products by admin. <br>
+Make sure that while in their account/profile the name/contact details of registered users is already autofilled within the contact form.
+
 
