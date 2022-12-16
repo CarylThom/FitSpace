@@ -54,10 +54,9 @@ INSTALLED_APPS = [
     'storages',
     'contact',
     'about',
-    'subscribers'
-    
-]
+    'newsletter',
 
+]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
