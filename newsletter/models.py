@@ -1,13 +1,12 @@
 from django.db import models
-from django.utils import timezone
 
 
 class Newsletter(models.Model):
-    """ Contact form fields """
+    """ Newsletter fields """
 
     name = models.CharField(max_length=100)
     email = models.EmailField(unique=True, max_length=100)
-    created_date = models.DateTimeField('Date created', default=timezone.now)
+    date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.email
