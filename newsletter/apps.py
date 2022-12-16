@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SubscribeConfig(AppConfig):
+class NewsletterConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'subscribe'
+    name = 'newsletter'
