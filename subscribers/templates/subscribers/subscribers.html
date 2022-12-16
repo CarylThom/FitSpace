@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
 
-
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -25,7 +24,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-12 col-md-6">
                 <div class="my-2">
-                    <form method="POST" action="{% url 'newsletter' %}" class="form mb-3 ">
+                    <form method="POST" action="{% url 'subscribe' %}" class="form mb-3 ">
                         {% csrf_token %}
                         {{ form|crispy }}
                         <div class="text-right mt-3 mb-5 text-center">

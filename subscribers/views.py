@@ -4,21 +4,19 @@ from django.http import HttpResponse
 from django.conf import settings
 from django.core.mail import send_mail
 
-
-from .models import Subscribe
-from .forms import subscribe
+from .models import Subscribers
 
 
-def subscribe(request):
+def subscribers(request):
     """ subscribe form view """
-    subscribe_form = Subscribe(request.POST or None)
+    subscribers_form = SubscribersForm(request.POST or None)
     if request.method == "POST":
 
-        if nsubscribe_form.is_valid():
+        if subscribers_form.is_valid():
             print("Form is valid")
-            subscribe_form.save()
+            subscribers_form.save()
             send_mail(
-                'Thank you for subscribing to our newsletter',
+                'Thank you for subscribing',
                 request.POST.get('message'),
                 settings.DEFAULT_FROM_EMAIL,
                 [request.POST.get('email')],
@@ -28,9 +26,9 @@ def subscribe(request):
                 request,
                 'Thank you!'
                 )
-            return redirect('newsletter')
+            return redirect('subscribers')
     context = {
-        'form': subscribe_form,
+        'form': subscribers_form,
     }
 
-    return render(request, 'subscribe/newsletter.html', context)
+    return render(request, 'subscribers/subscribers.html', context)
