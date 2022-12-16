@@ -5,17 +5,18 @@ from django.conf import settings
 from django.core.mail import send_mail
 
 
-from .models import Newsletter
+from .models import Subscribe
+from .forms import subscribe
 
 
-def newsletter(request):
+def subscribe(request):
     """ subscribe form view """
-    newsletter_form = Newsletter(request.POST or None)
+    subscribe_form = Subscribe(request.POST or None)
     if request.method == "POST":
 
-        if newsletter_form.is_valid():
+        if nsubscribe_form.is_valid():
             print("Form is valid")
-            newsletter_form.save()
+            subscribe_form.save()
             send_mail(
                 'Thank you for subscribing to our newsletter',
                 request.POST.get('message'),
@@ -29,7 +30,7 @@ def newsletter(request):
                 )
             return redirect('newsletter')
     context = {
-        'form': newsletter_form,
+        'form': subscribe_form,
     }
 
-    return render(request, 'newsletter/newsletter.html', context)
+    return render(request, 'subscribe/newsletter.html', context)

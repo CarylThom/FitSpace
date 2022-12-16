@@ -1,7 +1,8 @@
 from django.db import models
+from django.forms import ModelForm
 
 
-class Newsletter(models.Model):
+class Subscribe(models.Model):
     """A model to save the subscribe/newsletter form"""
 
     email = models.EmailField(max_length=254, unique=True, blank=False)

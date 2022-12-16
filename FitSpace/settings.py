@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'storages',
     'contact',
     'about',
-    'newsletter',
+    'subscribe',
 ]
 
 MIDDLEWARE = [
