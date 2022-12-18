@@ -3,7 +3,6 @@ from django.shortcuts import render, redirect
 from django.conf import settings
 from django.contrib import messages
 
-
 from .forms import NewsletterForm
 from .models import Newsletter
 
@@ -26,7 +25,7 @@ def newsletter(request):
             messages.success(
                 request,
                 'Thank you for subscribing '
-                'We will send you monthly updates, news and special offers'
+                'You have now been added to our mailing list'
                 )
             return redirect('newsletter')
     context = {
