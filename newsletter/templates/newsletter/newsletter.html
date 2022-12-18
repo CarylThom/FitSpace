@@ -24,7 +24,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-12 col-md-6">
                 <div class="my-2">
-                    <form method="POST" action="{% url 'subscribe' %}" class="form mb-3 ">
+                    <form method="POST" action="{% url 'newsletter' %}" class="form mb-3 ">
                         {% csrf_token %}
                         {{ form|crispy }}
                         <div class="text-right mt-3 mb-5 text-center">
@@ -39,9 +39,13 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="contact-details-container pt-0 pb-5 mb-5 mt-md-5">
                     <h4 class="page-header mb-4">Want to join us?..</h4>
-                    <p class="about-text">Fill in your full name and email address and we will send you a monthly
-                        newsletter so you can keep you up to date with all our latest news, new products, sales and special offers.
+                    <p class="about-text">Join our mailing list and we will send you a monthly
+                        newsletter so you can keep you up to date with all our latest news, products, 
+                        sales, special offers and much more.
                     </p>
+                    <hr>
+                    <h6><em>*By submitting your details you agree to sign up to receive emails from FitSpace. 
+                        We won't share your details with anyone and you can unsubscribe at any time.</em></h6>
                 </div>
             </div>
         </div>
