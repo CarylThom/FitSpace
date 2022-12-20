@@ -44,6 +44,10 @@ Features of the FitSpace website include:
 ![ContactTab](https://user-images.githubusercontent.com/95102264/200607528-29b44b79-9ff1-4fd1-9280-0363d6494ed7.png)<br>
  And then filling in the contact form or viewing the address and phone number<br>
 ![ContactForm](https://user-images.githubusercontent.com/95102264/201478741-4db58d13-c617-4e28-b007-3eeacb567a24.png)
+* **Newsletter**: Allows users to subscribe to the company mailing list to receive updates, news and discounts<br>
+![NewsletterTab](https://user-images.githubusercontent.com/95102264/208777893-fd01a610-f6ac-4f7e-a5d4-1d9cd1b5f329.png)<br>
+![SubscriptionForm](https://user-images.githubusercontent.com/95102264/208778214-317f4afb-c7de-45bd-8c6d-ef427b8abf61.png)<br>
+
 * **Logout**: Allows users to log out of their account.<br>
 ![LogOut](https://user-images.githubusercontent.com/95102264/201480444-df827031-222b-4aae-93dc-a117dfd1ddd7.png)
 
@@ -106,8 +110,9 @@ Or full<br>
 *  **FitSpace** is a dropdown menu with the following options:<br />
     **About Us:** A short biography of the company.<br />
     **Contact Us:** See contact details or contact the business via a contact form.<br />
+    **Newsletter:** Link to the newsletter subscription page where users can request to be added to the company mailing list. <br /> 
     **Social media links:** links to the homepages of  Facebook, Twitter, Instagram, TikTok & YouTube.<br>
-    ![FSdropdown](https://user-images.githubusercontent.com/95102264/200649636-cd3efbdc-d17d-4147-b6e6-70d3376af949.png)
+    ![FSdropdown](https://user-images.githubusercontent.com/95102264/208777428-02656f83-9cd9-4166-9a68-21ec4c0c9f76.png)
 
 *  **Fitness Products** is a dropdown menu with the following options:<br />
     **By Price:** Display items by price.<br />
@@ -373,7 +378,6 @@ Finally, push to GitHub, and all changes should be automatically pushed to Herok
 More products for sale, especially home gym equipment and eventually own brand clothing.<br>
 A site blog where admin can add inspirational stories and for members to see the fitness progressions of others and to add their own.<br>
 A reviews section where members/customers can add their own comments about products and their uses.<br>
-A newsletter subscription where customers can be kept up to date with news and special offers.<br>
 Create personal bespoke designed email account for FitSpace. <br>
 Create a barrier against accidental deletion of products by admin. <br>
 Make sure that while in their account/profile the name/contact details of registered users is already autofilled within the contact form.
