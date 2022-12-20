@@ -44,10 +44,10 @@ Features of the FitSpace website include:
 ![ContactTab](https://user-images.githubusercontent.com/95102264/200607528-29b44b79-9ff1-4fd1-9280-0363d6494ed7.png)<br>
  And then filling in the contact form or viewing the address and phone number<br>
 ![ContactForm](https://user-images.githubusercontent.com/95102264/201478741-4db58d13-c617-4e28-b007-3eeacb567a24.png)
-* **Newsletter**: Allows users to subscribe to the company mailing list to receive updates, news and discounts<br>
+* **Newsletter**: The Newsletter tab allows users to subscribe to the company mailing list to receive updates, news and discounts<br>
 ![NewsletterTab](https://user-images.githubusercontent.com/95102264/208777893-fd01a610-f6ac-4f7e-a5d4-1d9cd1b5f329.png)<br>
-![SubscriptionForm](https://user-images.githubusercontent.com/95102264/208778214-317f4afb-c7de-45bd-8c6d-ef427b8abf61.png)<br>
-
+By filling in the subscription form. <br>
+![SubscriptionForm](https://user-images.githubusercontent.com/95102264/208778947-cbd53e03-f09a-45e3-b03a-d8e75a0946cb.png)<br>
 * **Logout**: Allows users to log out of their account.<br>
 ![LogOut](https://user-images.githubusercontent.com/95102264/201480444-df827031-222b-4aae-93dc-a117dfd1ddd7.png)
 
@@ -140,7 +140,8 @@ There are also a set of alerts that will inform the user of their actions around
 ![Alert1](https://user-images.githubusercontent.com/95102264/201481997-4e108b5e-684e-4e71-bb03-ed9aa54a83d8.png)<br>
 ![Alert2](https://user-images.githubusercontent.com/95102264/201482058-664d35c1-f349-4bb9-9df0-97e39e76b354.png)<br>
 ![Alert3](https://user-images.githubusercontent.com/95102264/201482116-a98bd4eb-5fe4-40ca-af59-53ba95e06ecb.png)<br>
-![Alert4](https://user-images.githubusercontent.com/95102264/201494741-0a8acd8a-c0a9-476b-943a-f49e3390377e.png)
+![Alert4](https://user-images.githubusercontent.com/95102264/201494741-0a8acd8a-c0a9-476b-943a-f49e3390377e.png)<br>
+![Alert5](https://user-images.githubusercontent.com/95102264/208779345-744f6720-85b3-4d46-81cb-39ff0a9c356a.png)
 * Accessible only to signed- in/registered users on the Top Navbar:<br />
 **My Account:** > **My Profile:** To navigate to the session user's profile page.<br />
 **Logout:** To logout of the site.
