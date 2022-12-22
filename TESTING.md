@@ -76,6 +76,10 @@ Users can then log out of their account/profile <br>
 * Information gathered from the contact form is stored within the database <br>
 ![image](https://user-images.githubusercontent.com/95102264/201218298-7e504117-d94d-4ffb-8b8c-319a47e69f96.png)
 
+* **Newsletter**
+* Information gathered from newsletter form is stored within the database <br>
+![image](https://user-images.githubusercontent.com/95102264/209242441-30539bd9-181b-4414-b87f-5ae44cdff086.png)
+
 ### Email Confirmation
 
 * **Checkout** 
@@ -91,6 +95,10 @@ Confirmation email is also sent to customer <br>
 
 Email sent by customers are sent to site email address<br>
 ![image](https://user-images.githubusercontent.com/95102264/201417935-a260b501-731f-4802-a55d-224e206d902e.png)
+
+* **Newsletter**
+* Confirmation email for newsletter subscription is shown in the terminal <br>
+![image](https://user-images.githubusercontent.com/95102264/209241752-6160cdd9-4133-47ea-a048-593ae27d46c5.png)<br>
 
 
 
