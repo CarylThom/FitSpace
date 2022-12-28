@@ -178,7 +178,7 @@ There are also a set of alerts that will inform the user of their actions around
 * 'Mulish' <br>![Mulish](https://user-images.githubusercontent.com/95102264/200651279-e142e3cd-52b5-40ef-989d-425e172ada05.png)<br>
 (Designed by Vernon Adams, Cyreal, Jacques Le Bailly) was chosen as the main font of the site with 'sans-serif' as the fallback font.
 * 'Kalam'<br>![Kalam](https://user-images.githubusercontent.com/95102264/200651924-3ba3d621-85e9-49fa-9c4f-04164acce70f.png)<br>
- (Designed by Indian Type Foundry) was used in the design of the FitSpace logo'.
+ (Designed by Indian Type Foundry) was used in the design of the FitSpace logo.
 
 ### Imagery 
 
