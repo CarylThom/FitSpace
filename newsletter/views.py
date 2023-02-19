@@ -1,10 +1,8 @@
 from django.core.mail import send_mail
-from django.shortcuts import (
-    render, redirect, reverse, get_object_or_404, HttpResponse
-)
-from django.views.decorators.http import require_POST
+from django.shortcuts import render, redirect
 from django.conf import settings
 from django.contrib import messages
+
 
 from .forms import NewsletterForm
 from .models import Newsletter
